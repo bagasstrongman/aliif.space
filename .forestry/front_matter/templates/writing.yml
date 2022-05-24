@@ -5,15 +5,21 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
-- type: datetime
-  name: lastmod
-  label: lastmod
+  config:
+    required: true
 - type: text
   name: description
   label: description
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+- type: datetime
+  name: lastmod
+  label: lastmod
 - type: list
   name: tags
   label: tags
