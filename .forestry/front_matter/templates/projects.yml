@@ -5,15 +5,27 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: text
   name: description
   label: description
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
-- type: text
-  name: lastmod
+  config:
+    required: true
+- name: lastmod
+  type: datetime
   label: lastmod
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: text
   name: slug
   label: slug
