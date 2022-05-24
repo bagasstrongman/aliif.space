@@ -20,12 +20,14 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - blog-post
+  - writing
 - type: directory
   path: content/projects
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - projects
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
