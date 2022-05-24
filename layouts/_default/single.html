@@ -1,0 +1,18 @@
+
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ partial "tags.html" .}}
+  
+  {{ .Content }}
+
+  {{ if eq .Type "writing" }}
+  <br>
+    {{ $date := .Date.Format "Jan 2, 2006" }}
+    {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
+    Published {{ $date }}
+    {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
+        <br/>Updated {{ $lastmod }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}

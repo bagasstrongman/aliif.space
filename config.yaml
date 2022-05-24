@@ -1,0 +1,85 @@
+baseurl: ''
+languageCode: en-us
+title: Aliif Arief Homepage
+googleAnalytics: ""
+disqusShortname: ""
+enableEmoji: true
+//preserveTaxonomyNames: true
+footnotereturnlinkcontents: ↩
+disableHugoGeneratorInject: true
+pluralizeListTitles: false
+pygmentsCodeFences: true
+pygmentsUseClasses: false
+pygmentsStyle: "dracula"
+minify: true
+enableGitInfo: true
+
+permalinks:
+  writing: /writing/:slug/
+  projects: /project/:slug/
+  pages: /:slug/
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/about/"
+      weight: 2
+    - name: "Writing"
+      url: "/writing/"
+      weight: 3
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 4
+
+params:
+  description: "Software Engineering student with Backend Enthusiast sometimes explore something new tech stack."
+  images: 
+  - https://og.tailgraph.com/og?fontFamily=Inter&title=Aliif%20Arief's%20Homepage&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Software%20Engineering%20Student%20%26%20Backend%20Enthusiast&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-blueGray-500&t=1652777858725&refresh=1
+  FooterText: "© Aliif Arief"
+
+frontmatter:
+  author: 'Aliif Arief'
+  github: 'https://github.com/aliifam'
+  facebook: 'https://facebook.com/####'
+  og_image: /images/####
+  sitename: ######
+  twitter: 'lifrief'
+  lastmod:
+  - lastmod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: "dracula"
+    tabWidth: 4
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+outputFormats:
+  RSS:
+    mediatype: application/rss
+    baseName: atom
+
+

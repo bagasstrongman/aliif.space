@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+  {{ .Content }}
+  <h1>{{ .Title }}</h1>
+  {{ if hasPrefix .RelPermalink "/tags/" }} 
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+      <a href="/tags/{{ $name | urlize }}">#{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
+    {{end}}
+  {{end}}
+  {{- $cs := .CurrentSection }}
+  {{- with $cs }}
+    {{- range (where .Site.RegularPages "Section" .Section) }}
+      {{- if .IsDescendant $cs }}
+  <article class="list">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <time>{{ .Date.Format "02/01/2006" }}</time>
+  </article>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{ end }}

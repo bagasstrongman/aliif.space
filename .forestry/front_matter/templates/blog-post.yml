@@ -1,0 +1,30 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: datetime
+  name: date
+  label: date
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: tags for article
+- type: text
+  name: slug
+  label: slug
+- name: images
+  type: file
+  config:
+    maxSize: 5
+  label: images
+  description: seo image for posst

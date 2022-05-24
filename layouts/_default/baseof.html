@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ronalds Vilcins - {{ .Site.BaseURL }}">
+  <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  <link rel="canonical" href="{{ .Permalink | absURL }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}atom.xml" />
+  <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
+  <link rel="shortcut icon" type="image/svg" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzI5XzIpIj4KPHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNy4yMiA0LjkyOEw1LjcyNiA5LjUxOEg4LjY3OEw3LjIyIDQuOTI4Wk0yLjE2MiAxNFYxMy4wMjhMMy42MiAxMi44MTJMNy4yNzQgMi4xNTZIOS4xMjhMMTIuODE4IDEyLjkzOEwxMy45MTYgMTMuMDY0VjE0SDguMzU0VjEzLjA2NEw5Ljc0IDEyLjg4NEw5LjAwMiAxMC41NjJINS4zODRMNC42NjQgMTIuODEyTDYuMDMyIDEzLjAyOFYxNEgyLjE2MloiIGZpbGw9ImJsYWNrIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMjlfMiI+CjxyZWN0IHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K">
+  {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+  <style>{{ $styles.Content | safeCSS }}</style>
+
+  {{ if .IsHome -}}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}",
+    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
+    "license": "{{ .Site.Params.Copyright }}"
+}
+</script>
+{{ else if .IsPage }}
+{{ $author :=  or (.Params.author) (.Site.Author.name) }}
+{{ $org_name :=  .Site.Title }}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "{{ .Section }}",
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    "alternativeHeadline": "{{ .Params.lead }}",
+    "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
+    "inLanguage": {{ .Site.LanguageCode | default "en-us" }},
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "{{ $author }}"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "{{ $author }}"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "{{ $author }}"
+    },
+    "copyrightHolder" : "{{ $org_name }}",
+    "copyrightYear" : "{{ .Date.Format "2006" }}",
+    "dateCreated": "{{ .Date.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+    "publisher":{
+        "@type":"Organization",
+        "name": {{ $org_name }},
+        "url": {{ .Site.BaseURL }},
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ .Site.Params.logo | absURL }}",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "image": {{ if .Params.images }}[{{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }}]{{ else}}{{.Site.Params.logo | absURL }}{{ end }},
+    "url" : "{{ .Permalink }}",
+    "wordCount" : "{{ .WordCount }}",
+    "genre" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
+    "keywords" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}]
+}
+</script>
+{{ end }}
+{{ if not (in (.Site.BaseURL | string) "1313") }} 
+    <script async defer data-website-id="5d445dc6-dfc1-42f9-a54a-7b351edefd9d" src="https://umami.aliif.space/umami.js"></script>
+{{ end }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js" defer></script>
+</head>
+<body>
+	<main>
+		<header>
+			<a class="title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+			<nav>
+                {{ $current := . }}
+				{{- if .Site.Menus.main }}				
+				<ul>
+				{{- range .Site.Menus.main.ByWeight }}
+                    {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+                    {{ $active = or $active (eq .Name $current.Title) }}
+                    {{ $active = or $active (and (eq .Name "Writing") (eq $current.Section "writing")) }}
+                    {{ $active = or $active (and (eq .Name "Projects") (eq $current.Section "projects")) }}
+					<li><a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a></li>
+				{{- end }}
+				</ul>
+				{{- end }}
+			</nav>
+		</header>
+		<div class="content">
+			{{- block "main" . }}{{ end }}
+		</div>
+	</main>
+    {{- if .Site.Params.FooterText }}
+	<footer>
+		<p>{{ .Site.Params.FooterText }}</p>
+	</footer>
+{{- end }}
+
+</body>
+</html>
