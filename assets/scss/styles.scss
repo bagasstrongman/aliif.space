@@ -125,19 +125,22 @@ footer {
 }
 .list {
   display: flex;
+  flex-direction: column;
+  margin: 1.2rem 0;
+  border-bottom: 1px solid lightgray;
   align-items: baseline;
-  justify-content: space-between;
   font-size: inherit;
   font-weight: inherit;
 }
-.list li a {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-right: 20px;
+.list time {
+  order: 1;
+  font-size: 14px;
+  color: gray;
 }
-time {
-  font-variant-numeric: tabular-nums;
+.list a {
+  order: 2;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 header {
@@ -195,4 +198,10 @@ nav a:hover {
 
 svg {
   max-width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  header, footer, .content {
+    padding: 2rem 1rem;
+  }
 }

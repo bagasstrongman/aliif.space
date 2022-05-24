@@ -7,7 +7,7 @@
     {{ range first 3 ( where .Site.RegularPages "Section" "writing" ) }}
       <article class="list">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          <time>{{ .Date.Format "02/01/2006" }}</time>
+          <time>{{ .Date.Format "January 2, 2006" }}</time>
       </article>
     {{ end }}
   {{ end }}
@@ -17,7 +17,7 @@
     {{ range first 3 ( where .Site.RegularPages "Section" "projects" ) }}
       <article class="list">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          <time>{{ .Date.Format "02/01/2006" }}</time>
+          <time>{{ .Date.Format "January 2, 2006" }}</time>
       </article>
     {{ end }}
   {{ end }}
