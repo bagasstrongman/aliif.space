@@ -5,15 +5,15 @@ admin_path: static/admin
 webhook_url: 
 sections:
 - type: directory
-  path: content/pages
-  label: Pages
-  create: all
-  match: "**/*"
-- type: directory
   path: content
   label: index
   create: all
   match: "*"
+- type: directory
+  path: content/pages
+  label: Pages
+  create: all
+  match: "**/*"
 - type: directory
   path: content/writing
   label: Writing
