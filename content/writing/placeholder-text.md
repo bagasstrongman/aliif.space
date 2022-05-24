@@ -1,11 +1,11 @@
-+++
-author = "Hugo Authors"
-date = 2019-03-09T00:00:00Z
-description = "Lorem Ipsum Dolor Si Amet"
-tags = ["markdown", "text"]
-title = "Placeholder Text"
-
-+++
+---
+title: Placeholder Text
+description: Lorem Ipsum Dolor Si Amet
+date: 2019-03-09T00:00:00.000Z
+tags:
+  - markdown
+  - text
+---
 Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
 
 1. Exierant elisi ambit vivere dedere

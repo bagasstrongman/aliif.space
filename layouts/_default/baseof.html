@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Ronalds Vilcins - {{ .Site.BaseURL }}">
+    <meta name="author" content="Aliif Arief - {{ .Site.BaseURL }}">
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{ template "_internal/opengraph.html" . }}
@@ -112,7 +112,7 @@
 	</main>
     {{- if .Site.Params.FooterText }}
 	<footer>
-		<p>{{ .Site.Params.FooterText }}</p>
+		<p>&copy; 2020-{{ now.Format "2006"}} · {{ .Site.Params.FooterText }}</p>
 	</footer>
 {{- end }}
 

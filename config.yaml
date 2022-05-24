@@ -19,6 +19,11 @@ permalinks:
   projects: /project/:slug/
   pages: /:slug/
 
+author:
+  name: Aliif Arief
+  email: me@aliif.space
+  twitter: 'lifrief'
+
 taxonomies:
   tag: tags
 
@@ -42,14 +47,11 @@ params:
   description: "Software Engineering student with Backend Enthusiast sometimes explore something new tech stack."
   images: 
   - https://og.tailgraph.com/og?fontFamily=Inter&title=Aliif%20Arief's%20Homepage&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Software%20Engineering%20Student%20%26%20Backend%20Enthusiast&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-blueGray-500&t=1652777858725&refresh=1
-  FooterText: "© Aliif Arief"
+  FooterText: "Aliif Arief"
 
 frontmatter:
   author: 'Aliif Arief'
   github: 'https://github.com/aliifam'
-  facebook: 'https://facebook.com/####'
-  og_image: /images/####
-  sitename: ######
   twitter: 'lifrief'
   lastmod:
   - lastmod

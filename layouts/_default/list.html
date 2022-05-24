@@ -13,7 +13,7 @@
       {{- if .IsDescendant $cs }}
   <article class="list">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <time>{{ .Date.Format "02/01/2006" }}</time>
+      <time>{{ .Date.Format "Monday, Jan 2, 2006" }}</time>
   </article>
       {{- end }}
     {{- end }}

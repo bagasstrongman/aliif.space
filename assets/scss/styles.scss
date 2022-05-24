@@ -66,10 +66,14 @@ blockquote {
   margin-left: 0;
 }
 
-ul, ol {
+ul {
   padding: 0 0 1rem 1rem;
   list-style-type: square;
   font-variant-numeric: tabular-nums;
+}
+
+ol {
+  padding: 0 0 1rem 1rem;
 }
 
 code, pre {
