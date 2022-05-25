@@ -2,7 +2,7 @@ baseURL: 'https://aliif.space/'
 languageCode: en-us
 title: Aliif Arief Homepage
 googleAnalytics: ""
-disqusShortname: ""
+disqusShortname: "aliif"
 enableEmoji: true
 //preserveTaxonomyNames: true
 footnotereturnlinkcontents: ↩

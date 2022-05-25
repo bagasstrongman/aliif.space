@@ -264,6 +264,18 @@ svg {
   max-width: 100%;
 }
 
+.but-disq {
+  color: white ;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 425px) {
   header, footer, .content {
     padding: 2rem 1rem;

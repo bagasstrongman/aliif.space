@@ -13,6 +13,7 @@
     {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
         <br/>Updated {{ $lastmod }}
     {{ end }}
+    {{ partial "disqus.html" .}}
   {{ end }}
 
 {{ end }}
