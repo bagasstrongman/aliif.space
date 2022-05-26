@@ -33,3 +33,5 @@ fields:
   type: boolean
   label: show_comments
   default: true
+pages:
+- content/writing/welcome-new-homepage.md
