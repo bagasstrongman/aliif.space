@@ -5,7 +5,7 @@ images = ["https://og.tailgraph.com/og?fontFamily=Roboto&title=Welcome%20Homepag
 lastmod = ""
 show_comments = true
 slug = "welcome-homepage"
-tags = []
+tags = ["random"]
 title = "Welcome new homepage"
 
 +++
