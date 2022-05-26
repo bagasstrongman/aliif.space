@@ -3,7 +3,7 @@ date = 2022-05-25T19:00:00Z
 description = "welcome to my new simple homepage"
 images = ["https://og.tailgraph.com/og?fontFamily=Roboto&title=Welcome%20Homepage&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=welcome%20to%20my%20new%20simple%20homepage&textTailwind=text-gray-700%20text-2xl%20mt-4&textFontFamily=Inter&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1653549050125&refresh=1"]
 lastmod = ""
-show_comments = true
+show_comments = false
 slug = "welcome-homepage"
 tags = ["random"]
 title = "Welcome new homepage"
