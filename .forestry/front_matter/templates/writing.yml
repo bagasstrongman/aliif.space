@@ -12,6 +12,11 @@ fields:
   label: description
   config:
     required: true
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: tags for post
 - type: datetime
   name: date
   label: date
@@ -20,9 +25,6 @@ fields:
 - type: datetime
   name: lastmod
   label: lastmod
-- type: list
-  name: tags
-  label: tags
 - type: text
   name: slug
   label: slug
