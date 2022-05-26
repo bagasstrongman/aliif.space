@@ -32,7 +32,7 @@ fields:
 - type: list
   name: image
   label: image
-- name: show_comments
+- name: show_comment
   type: boolean
-  label: show_comments
+  label: show_comment
   default: false

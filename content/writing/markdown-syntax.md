@@ -9,6 +9,7 @@ tags:
   - html
   - themes
 slug: markdown-yaml
+show_comment: true
 images:
   - https://og.thcl.dev/api/general?theme=dark
 draft: false

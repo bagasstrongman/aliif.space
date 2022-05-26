@@ -29,9 +29,9 @@ fields:
 - type: list
   name: images
   label: images
-- name: show_comments
+- name: show_comment
   type: boolean
-  label: show_comments
+  label: show_comment
   default: true
 pages:
 - content/writing/welcome-new-homepage.md
