@@ -6,6 +6,7 @@
   {{ .Content }}
 
   {{ if or (eq .Section "writing") (eq .Section "projects") }}
+    <p>----</p>
   {{ if eq .Type "writing" }} {{ end }}
     {{ $date := .Date.Format "Jan 2, 2006" }}
     {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
@@ -14,6 +15,7 @@
         <br/>Updated {{ $lastmod }}
     {{ end }}
     {{ if .Params.show_comment }}
+      <br/>
       {{ partial "disqus.html" .}}
     {{ end }}
   {{ end }}
