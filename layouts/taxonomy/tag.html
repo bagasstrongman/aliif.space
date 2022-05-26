@@ -1,10 +1,18 @@
 {{ define "main" }}
 
-<h1>{{ .Title | title }} ({{ len .Data.Pages }})</h1>
+<h1>{{ .Title | title }}</h1>
+<p>
+    Found
+    <strong>{{ len .Pages }}</strong>
+    {{ cond (eq (len .Pages) 1) "post" "posts" }} tagged with
+    <strong
+    >#{{ .Title | urlize }}</strong
+    >.
+</p>
 {{ range .Data.Pages }}
 <article class="list">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <time>{{ .Date.Format "02/01/2006" }}</time>
+    <time>{{ .Date.Format "January 2, 2006" }}</time>
 </article>
 {{ end }}
 {{ end }}
