@@ -13,6 +13,7 @@ pygmentsUseClasses: false
 pygmentsStyle: "dracula"
 minify: true
 enableGitInfo: true
+metaDataFormat: "yaml"
 
 permalinks:
   writing: /writing/:slug/
