@@ -29,3 +29,7 @@ fields:
 - type: list
   name: images
   label: images
+- name: show_comments
+  type: boolean
+  label: show_comments
+  default: true
