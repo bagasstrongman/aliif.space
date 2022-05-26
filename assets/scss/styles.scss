@@ -264,6 +264,15 @@ svg {
   max-width: 100%;
 }
 
+#disqus-button {
+  width: 100%;
+  padding: .5rem;
+  margin: 1rem 0;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 425px) {
   header, footer, .content {
     padding: 2rem 1rem;
