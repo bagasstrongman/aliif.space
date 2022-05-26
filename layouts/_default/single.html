@@ -5,8 +5,8 @@
   
   {{ .Content }}
 
-  {{ if or (eq .Section "writing") (eq .Section "projects") }}{{ end }}
-  {{ if eq .Type "writing" }}
+  {{ if or (eq .Section "writing") (eq .Section "projects") }}
+  {{ if eq .Type "writing" }} {{ end }}
     {{ $date := .Date.Format "Jan 2, 2006" }}
     {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
     Published {{ $date }}

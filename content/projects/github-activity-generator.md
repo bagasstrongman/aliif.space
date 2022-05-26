@@ -4,6 +4,7 @@ description: "Github Activity Generator build using python"
 date: "2021-11-21"
 lastmod: ""
 slug: "github-activity-generator"
+show_comment: false
 image:
 - https://og.tailgraph.com/og?fontFamily=Roboto&title=Github%20Activity%20Generator&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Github%20Activity%20Generator%20build%20using%20python&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1653399583383&refresh=1
 ---
