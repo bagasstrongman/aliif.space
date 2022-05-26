@@ -32,4 +32,4 @@ fields:
 - name: show_comments
   type: boolean
   label: show_comments
-  default: false
+  default: true
