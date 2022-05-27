@@ -87,8 +87,6 @@
 {{ end }}
 {{ $turbo := resources.Get "js/turbo.js" }}
 <script src="{{ $turbo.Permalink | relURL }}" defer></script>
-{{ $blank := resources.Get "js/blank.js" }}
-<script src="{{ $blank.Permalink | relURL }}" defer></script>
 </head>
 <body>
 	<main>
@@ -118,6 +116,7 @@
 		<p>&copy; 2020-{{ now.Format "2006"}} · {{ .Site.Params.FooterText }}</p>
 	</footer>
 {{- end }}
-
+{{ $blank := resources.Get "js/blank.js" }}
+<script src="{{ $blank.Permalink | relURL }}" defer></script>
 </body>
 </html>
