@@ -1,0 +1,5 @@
+<button>
+    <a class="tweet" style="text-decoration: none;" href="https://twitter.com/intent/tweet?text={{ .Title | safeJS }}&url={{ .Permalink | absURL }}&via={{ .Site.Author.twitter }}&related={{ .Site.Author.twitter }}" target="_blank">
+    Tweet this
+    </a>
+</button>
