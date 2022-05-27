@@ -85,8 +85,10 @@
 {{ if not (in (.Site.BaseURL | string) "1313") }} 
     <script async defer data-website-id="5d445dc6-dfc1-42f9-a54a-7b351edefd9d" src="https://umami.aliif.space/umami.js"></script>
 {{ end }}
-{{ $js := resources.Get "js/turbo.js" }}
-<script src="{{ $js.Permalink | relURL }}" defer></script>
+{{ $turbo := resources.Get "js/turbo.js" }}
+<script src="{{ $turbo.Permalink | relURL }}" defer></script>
+{{ $blank := resources.Get "js/blank.js" }}
+<script src="{{ $blank.Permalink | relURL }}" defer></script>
 </head>
 <body>
 	<main>
