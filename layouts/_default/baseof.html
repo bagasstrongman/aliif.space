@@ -118,13 +118,13 @@
 	</footer>
 {{- end }}
 <script>
-     if (localStorage.getItem('preferredTheme') == 'dark')
-        toggleDarkMode()
-
     function toggleDarkMode() {
+
         const themeBtn = document.getElementById('themeBtn')
         let emoticon = ""
         let isDark = document.body.classList.toggle("darkmode")
+
+        console.log(isDark);
 
         if (isDark) {
             emoticon = "🌝"
