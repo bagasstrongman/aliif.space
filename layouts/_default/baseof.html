@@ -114,8 +114,8 @@
     {{- if .Site.Params.FooterText }}
 	<footer>
 		<p>&copy; 2020-{{ now.Format "2006"}} · {{ .Site.Params.FooterText }}</p>
-        <div onclick=setDarkMode(true) id="darkBtn">🌚</div>
-        <div onclick=setDarkMode(false) id="lightBtn" style="display: none;">🌝</div>
+        <div style="cursor: pointer;" onclick=setDarkMode(true) id="darkBtn">🌚</div>
+        <div style="cursor: pointer;" onclick=setDarkMode(false) id="lightBtn" style="display: none;">🌝</div>
 	</footer>
 {{- end }}
 <script>
