@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -114,8 +114,31 @@
     {{- if .Site.Params.FooterText }}
 	<footer>
 		<p>&copy; 2020-{{ now.Format "2006"}} · {{ .Site.Params.FooterText }}</p>
+        <p title="switch theme" style="cursor: pointer;" onclick=toggleDarkMode() id=themeBtn>🌚</p>
 	</footer>
 {{- end }}
+<script>
+     if (localStorage.getItem('preferredTheme') == 'dark')
+        toggleDarkMode()
+
+    function toggleDarkMode() {
+        const themeBtn = document.getElementById('themeBtn')
+        let emoticon = ""
+        let isDark = document.body.classList.toggle("darkmode")
+
+        if (isDark) {
+            emoticon = "🌝"
+            localStorage.setItem('preferredTheme', 'dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            emoticon = "🌚"
+            localStorage.removeItem('preferredTheme');
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+
+        themeBtn.innerHTML = emoticon
+    }
+</script>
 {{ $blank := resources.Get "js/blank.js" }}
 <script src="{{ $blank.Permalink | relURL }}" defer></script>
 </body>
