@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="light">
+<html data-theme="light" lang="id">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -114,29 +114,29 @@
     {{- if .Site.Params.FooterText }}
 	<footer>
 		<p>&copy; 2020-{{ now.Format "2006"}} · {{ .Site.Params.FooterText }}</p>
-        <p title="switch theme" style="cursor: pointer;" onclick=toggleDarkMode() id=themeBtn>🌚</p>
+        <div onclick=setDarkMode(true) id="darkBtn">🌚</div>
+        <div onclick=setDarkMode(false) id="lightBtn" style="display: none;">🌝</div>
 	</footer>
 {{- end }}
 <script>
-    function toggleDarkMode() {
-
-        const themeBtn = document.getElementById('themeBtn')
-        let emoticon = ""
-        let isDark = document.body.classList.toggle("darkmode")
-
-        console.log(isDark);
-
+    if (localStorage.getItem('preferredTheme') == 'dark') {
+        setDarkMode(true)
+    }
+    
+    function setDarkMode(isDark) {
+        var darkBtn = document.getElementById('darkBtn')
+        var lightBtn = document.getElementById('lightBtn')
         if (isDark) {
-            emoticon = "🌝"
-            localStorage.setItem('preferredTheme', 'dark');
-            document.documentElement.setAttribute('data-theme', 'dark');
+          lightBtn.style.display = "block"
+          darkBtn.style.display = "none"
+          localStorage.setItem('preferredTheme', 'dark');
+          document.documentElement.setAttribute("data-theme","dark");
         } else {
-            emoticon = "🌚"
-            localStorage.removeItem('preferredTheme');
-            document.documentElement.setAttribute('data-theme', 'light');
+          lightBtn.style.display = "none"
+          darkBtn.style.display = "block"
+          localStorage.removeItem('preferredTheme');
+          document.documentElement.setAttribute("data-theme","light");
         }
-
-        themeBtn.innerHTML = emoticon
     }
 </script>
 {{ $blank := resources.Get "js/blank.js" }}
