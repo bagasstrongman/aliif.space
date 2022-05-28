@@ -99,12 +99,14 @@ html[data-theme="light"] {
   --bg-color: #fff;
   --base-color: #1e1e1e;
   --base-low: lightgray;
+  --time-low: gray;
 }
 
 html[data-theme="dark"] {
   --bg-color : #1e1e1e;
   --base-color : #eaeaea;
   --base-low: gray;
+  --time-low: lightgray;
 }
 
 body {
@@ -218,7 +220,7 @@ footer {
 .list time {
   order: 1;
   font-size: 14px;
-  color: gray;
+  color: var(--time-low);
 }
 .list a {
   order: 2;
