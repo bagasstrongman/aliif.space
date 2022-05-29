@@ -98,14 +98,16 @@ html {
 html[data-theme="light"] {
   --bg-color: #fff;
   --base-color: #1e1e1e;
+  --text-color: #374151;
   --base-low: lightgray;
   --time-low: gray;
 }
 
 html[data-theme="dark"] {
-  --bg-color : #1e1e1e;
+  --bg-color : #222222;
   --base-color : #eaeaea;
-  --base-low: gray;
+  --text-color : #d1d5db;
+  --base-low: #424242;
   --time-low: lightgray;
 }
 
@@ -190,7 +192,7 @@ main {
 }
 
 footer {
-  border-top: 1px solid var(--base-color);
+  border-top: 1px solid var(--base-low);
   background-color: var(--bg-color);
   display: flex;
   justify-content: space-between;
@@ -206,7 +208,7 @@ footer {
   line-height: 2rem;
 }
 .content p {
-  font-size: large;
+  color: var(--text-color);
 }
 .list {
   display: flex;
@@ -220,7 +222,7 @@ footer {
 .list time {
   order: 1;
   font-size: 14px;
-  color: var(--time-low);
+  color: var(--text-color);
 }
 .list a {
   order: 2;
@@ -231,7 +233,7 @@ footer {
 header {
   background-color: var(--bg-color);
   padding: 2rem;
-  border-bottom: 1px solid var(--base-color);
+  border-bottom: 1px solid var(--base-low);
   color: var(--base-color);
 }
 
