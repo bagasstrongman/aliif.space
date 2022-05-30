@@ -303,8 +303,9 @@ svg {
 
 .clipboard-button {
   position: absolute;
+  display: flex;
   right: 0;
-  padding: 6px 7px;
+  padding: 10px;
   margin: 7px;
   color: #767676;
   background-color: #283444;
