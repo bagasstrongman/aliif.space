@@ -141,5 +141,9 @@
 </script>
 {{ $blank := resources.Get "js/blank.js" }}
 <script src="{{ $blank.Permalink | relURL }}" defer></script>
+{{ if (findRE "<pre" .Content 1) }}
+    {{ $cb := resources.Get "js/cb.js" }}
+    <script src="{{ $cb.Permalink | relURL }}" defer></script>
+{{ end }}
 </body>
 </html>
