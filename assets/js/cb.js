@@ -16,7 +16,11 @@ const addCopyButtons = (clipboard) => {
         () => {
           button.blur();
           button.innerHTML = svgCheck;
-          setTimeout(() => (button.innerHTML = svgCopy), 2000);
+          button.style.borderColor = "green";
+          setTimeout(() => {
+            button.innerHTML = svgCopy;
+            button.style.borderColor = "#334155";
+          }, 2000);
         },
         (error) => (button.innerHTML = "Error")
       );

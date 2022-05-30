@@ -161,10 +161,11 @@ code, pre {
   font-family: San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;
 }
 pre, code {
-  border-radius: 8px;
+  border-radius: 9px;
 }
 code {
   background-color: #282a36;
+  border: 1px solid #334155;
   color: #fff;
   padding: 0.1rem 0.4rem;
 }
@@ -172,7 +173,6 @@ code {
 pre code {
   display: block;
   font-size: 15px;
-  border: none;
   color: #fff;
   padding: 1em;
   overflow-x: auto;
@@ -304,12 +304,11 @@ svg {
 .clipboard-button {
   position: absolute;
   right: 0;
-  padding: 5px 7px;
+  padding: 6px 7px;
   margin: 7px;
   color: #767676;
-  border-color: #767676;
-  background-color: #ededed;
-  border: 1px solid;
+  background-color: #283444;
+  border: 1px solid #334155;
   border-radius: 6px;
   font-size: 0.8em;
   z-index: 1;
@@ -321,14 +320,13 @@ svg {
 }
 .clipboard-button:hover {
   cursor: pointer;
-  border-color: #696969;
-  background-color: #e0e0e0;
+  background-color: #334155;
 }
 .clipboard-button:hover > svg {
-  fill: #696969;
 }
 .clipboard-button:focus {
   outline: 0;
+  border-color: green;
 }
 .highlight {
   position: relative;
@@ -358,5 +356,9 @@ svg {
 
   .content p {
     font-size: medium;
+  }
+
+  .clipboard-button {
+    opacity: 1;
   }
 }
