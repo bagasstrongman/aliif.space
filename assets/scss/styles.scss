@@ -337,6 +337,9 @@ svg {
   transition: 0.2s;
 }
 
+.cursor-newtab {
+  cursor: url('../uploads/new-tab.png') 10 10,pointer;
+}
 
 @media only screen and (max-width: 425px) {
 
