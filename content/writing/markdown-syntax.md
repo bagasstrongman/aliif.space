@@ -65,7 +65,7 @@ The blockquote element represents content that is quoted from another source, op
 
 Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-box.
 
-```html
+```bash
 npx create-next-app myblogfix
 ```
 
