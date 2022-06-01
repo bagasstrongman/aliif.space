@@ -160,6 +160,9 @@ ol {
 code, pre {
   font-family: San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;
 }
+pre {
+  border-radius: 9px;
+}
 pre code {
   border-radius: 9px;
 }
