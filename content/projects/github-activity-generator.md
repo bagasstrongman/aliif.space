@@ -2,16 +2,69 @@
 title: "Github Activity Generator"
 description: "Github Activity Generator build using python"
 date: "2021-11-21"
-lastmod: ""
+lastmod: "2022-06-01"
 slug: "github-activity-generator"
 show_comment: false
 image:
 - https://og.tailgraph.com/og?fontFamily=Roboto&title=Github%20Activity%20Generator&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Github%20Activity%20Generator%20build%20using%20python&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1653399583383&refresh=1
 ---
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+Pernah gak sih anda meihhat timeline aktifitas akun GitHub seseorang kok bisa yang hijau banget seakan - akan dia ngoding terus tiap hari.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+> Jangan nilai Programmer hanya dari profil GitHubnya saja <br> *- Aliif Arief 2021* 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+Kira - kira Quotes diatas sangat cocok untuk Proyek yang saya buat kali ini, jadi perkenalkan lah Github Activity Generator yaitu sebuah script yang saya buat dengan menggunakan bahasa Python untuk melakukan manipulasi dengan mengotomatisasi commit git.
 
+Cara Kerja dari script ini sebenarnya sangat amat sederhana yaitu hanya dengan memanfaatkan fungsi `os.system` dan module time bawaan Python yang di loop berkali - kali.
+
+Berikut main script dari aplikasi sederhana yang saya buat.
+
+```python
+import os
+from datetime import date, time, datetime
+import datetime
+
+total_day = 366 #total days back
+commit_frequency = 10 #commit time per day
+repo_link = "https://github.com/aliifam/github-activity-generator.git"
+
+tl = total_day #time day
+ctr = 1
+
+now = datetime.datetime.now()
+
+f = open("commit.txt", "w")
+os.system("git config user.name")
+os.system("git config user.email")
+os.system("git init")
+
+pointer = 0
+
+while tl > 0:
+    ct = commit_frequency
+    while ct > 0:
+        f = open("commit.txt", "a+")
+        l_date = now + datetime.timedelta(days=-pointer)
+        formatdate = l_date.strftime("%Y-%m-%d")
+        f.write(f"commit ke {ctr}: {formatdate}\n")
+        f.close()
+        os.system("git add .")
+        os.system(f"git commit --date=\"{formatdate} 12:15:10\" -m \"commit ke {ctr}\"")
+        print(f"commit ke {ctr}: {formatdate}")
+        ct-=1
+        ctr+=1
+    pointer+=1
+    tl-=1
+
+os.system(f"git remote add origin {repo_link}")
+os.system("git branch -M main")
+os.system("git push -u origin main -f")
+```
+
+berikut link repository Github nya : [Github Activity Generator](https://github.com/aliifam/github-activity-generator)
+
+Alur dari program ini berjalan adalah pertama kita tentukan kapan awal tanggal komit di masa lampau yang kita inginkan jadi hijau lalu tentukan frekuensi komit per hari nya lalu tentukan link repository GitHub kosong untuk dummy nya saja lalu jalankan programnya pastikan komputer sudah terpasang aplikasi Git dan sudah terkonfigurasi dengan GitHub, maka program akan membuat file `commit.txt` dan akan melakukan komit berulang - ulang sampai target terpenuhi saat commit tanggal commit juga dimanipulasi agar hijaunya merata setelah looping selesai maka program otomatis langsung push repo ke GitHub dan voila timeline GitHub anda akan menjadi seperti Hutan di Kalimantan saat sebelum di Tebangin.
+
+Saya membuat proyek ini karena gabut aja dan ingin mengamalkan ilmu functional programming di semester 1 perkuliahan.
+
+Mohon digunakan dengan bijak, terimakasih sudah membaca.
