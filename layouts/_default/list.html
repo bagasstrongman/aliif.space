@@ -1,7 +1,9 @@
 {{ define "main" }}
 
-  {{ .Content }}
   <h1>{{ .Title }}</h1>
+  
+  {{ .Content }}
+  
   {{ if hasPrefix .RelPermalink "/tags/" }} 
     {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
     <article class="list">
