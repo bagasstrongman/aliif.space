@@ -160,22 +160,28 @@ ol {
 code, pre {
   font-family: San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;
 }
-pre, code {
+pre code {
   border-radius: 9px;
 }
 code {
   background-color: #282a36;
   border: 1px solid #334155;
+  border-radius: 0;
   color: #fff;
-  padding: 0.1rem 0.4rem;
+  padding: 0.01rem 0.2rem;
+}
+
+code span {
+  display: inline !important;
 }
 
 pre code {
   display: block;
   font-size: 15px;
   color: #fff;
-  padding: 1em;
+  padding: 1em 1.2em;
   overflow-x: auto;
+
 }
 
 img {
@@ -360,9 +366,5 @@ svg {
 
   .content p {
     font-size: medium;
-  }
-
-  .clipboard-button {
-    opacity: 1;
   }
 }
