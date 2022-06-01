@@ -1,9 +1,28 @@
 ---
 title: About
-author: Aliif Arief
 date: '2021-12-06'
+images:
+- https://og.tailgraph.com/og?fontFamily=Roboto&title=About%20Me&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=Learn%20more%20about%20me%20Aliif%20Arief%20&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1654070936915&refresh=1
 ---
 
-Jam is a minimal personal blog and portfolio theme powered by Hugo ssg.
+Halo Semua,
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Perkenalkan nama saya Aliif inget i nya 2 ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript tapi baru - baru ini sedang pake PHP(tuntutan matkul).
+
+Beberapa hal unik tentang saya, saya belum pernah naik pesawat, belum pernah merokok (Aktif), pemenang penghargaan Santri tertidur tahun 2016, dan juara 2 Stand Up Comedy se Pesantren 2017.
+
+Mulai kenal coding dari tahun 2019 akhir karena tugas jadi panitia event sekolah waktu itu masih SMA untuk bikin website acara, setelah acara selesai saya jadi suka ngulik dan akhirnya memutuskan untuk ngambil jurusan IT.
+
+Belum bekerja dan target saya kerja sebelum umur 20 tahun bismillah di perusahaan kuda terbang bertanduk satu 🤣.
+
+Instagram : [@aliif.am](https://www.instagram.com/aliif.am/)
+
+Twitter : [@lifrief](https://twitter.com/lifrief)
+
+GitHub : [@aliifam](https://github.com/aliifam)
+
+GitLab : [@aliifam](https://gitlab.com/aliifam)
+
+Ada proyek atau ingin menghubungi saya lewat email.
+
+email : [me@aliif.space](mailto:me@aliif.space)
