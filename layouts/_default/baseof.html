@@ -152,5 +152,9 @@
     {{ $cb := resources.Get "js/cb.js" }}
     <script src="{{ $cb.Permalink | relURL }}" defer></script>
 {{ end }}
+{{ if (findRE "<img" .Content 1) }}
+    {{ $zoom := resources.Get "js/zoom.js" }}
+    <script src="{{ $zoom.Permalink | relURL }}" defer></script>
+{{ end }}
 </body>
 </html>
