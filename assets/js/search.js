@@ -1,10 +1,9 @@
-function searchFunction() {
+document.getElementById("search-input").oninput = function searchPost() {
     // Declare variables
-    var input, filter, li, tampung, a, i, nf, txtValue;
+    var input, filter, li, tampung, a, i, txtValue;
     input = document.getElementById('search-input');
     filter = input.value.toUpperCase();
     li = document.getElementsByClassName('list');
-    nf = document.getElementById("nofound");
     tampung = [];
 
     // Loop through all list items, and hide those who don't match the search query
@@ -20,8 +19,13 @@ function searchFunction() {
     }
 
     if (tampung.length === li.length) {
-        nf.style.display = "block";
+        if (!document.getElementById('nofound')) {
+            var hm = document.getElementsByClassName("search-article");
+            hm[0].insertAdjacentHTML('afterend', `<div style="font-size: large;font-weight: 600;" id="nofound"><p>Sorry, nothing matched that search</p></div>`);
+        }
     } else {
-        nf.style.display = "none";
+        if (document.getElementById('nofound')) {
+            document.getElementById("nofound").remove();
+        }
     }
 }

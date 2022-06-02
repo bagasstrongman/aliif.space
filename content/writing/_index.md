@@ -11,8 +11,6 @@ Saya menulis tentang **Software Engineering** dan Teknologi,     masih pemula ya
         stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
         class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </label>
-<input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search" oninput="searchFunction()">
+<input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
 </div>
-<div style="font-size: large;font-weight: 600;display: none;" id="nofound">
-    <p>Sorry, nothing matched that search</p>
-</div>
+
