@@ -15,10 +15,10 @@
   {{- with $cs }}
     {{- range (where .Site.RegularPages "Section" .Section) }}
       {{- if .IsDescendant $cs }}
-  <article class="list">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <time>{{ .Date.Format "January 2, 2006" }}</time>
-  </article>
+    <article class="list">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </article>
       {{- end }}
     {{- end }}
   {{- end }}

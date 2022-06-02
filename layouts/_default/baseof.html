@@ -156,5 +156,9 @@
     {{ $zoom := resources.Get "js/zoom.js" }}
     <script src="{{ $zoom.Permalink | relURL }}" defer></script>
 {{ end }}
+{{ if (findRE "<input" .Content 1) }}
+    {{ $search := resources.Get "js/search.js" }}
+    <script src="{{ $search.Permalink | relURL }}" defer></script>
+{{ end }}
 </body>
 </html>
