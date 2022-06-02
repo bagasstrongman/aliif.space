@@ -21,7 +21,10 @@ document.getElementById("search-input").oninput = function searchPost() {
     if (tampung.length === li.length) {
         if (!document.getElementById('nofound')) {
             var hm = document.getElementsByClassName("search-article");
-            hm[0].insertAdjacentHTML('afterend', `<div style="font-size: large;font-weight: 600;" id="nofound"><p>Sorry, nothing matched that search</p></div>`);
+            hm[0].insertAdjacentHTML('afterend', `<div style="font-size: large;font-weight: 600;" id="nofound"><p id="nfmsg"></p></div>`);
+        }
+        if (document.getElementById('nofound')) {
+            document.getElementById('nfmsg').innerText = `Sorry, nothing matched with "${input.value}"`;
         }
     } else {
         if (document.getElementById('nofound')) {
