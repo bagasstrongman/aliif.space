@@ -2,8 +2,10 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
 
-    {{ partial "minread.html" . }}
-    {{ partial "tags.html" .}}
+    {{ if or (eq .Section "writing") (eq .Section "projects") }}
+      {{ partial "minread.html" . }}
+      {{ partial "tags.html" .}}
+    {{ end }}
   
   {{ .Content }}
 
