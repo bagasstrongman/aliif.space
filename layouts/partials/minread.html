@@ -1,0 +1,3 @@
+{{ $author :=  or (.Params.author) (.Site.Author.name) }}
+
+<p style="font-size: .9rem;">By {{ $author }} · {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }} read</p>

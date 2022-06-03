@@ -5,11 +5,12 @@
   {{ .Content }}
   
   {{ if hasPrefix .RelPermalink "/tags/" }} 
+  <p>Semua Tags yang tersedia.</p>
+  <div class="tags">
     {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-    <article class="list">
-      <a href="/tags/{{ $name | urlize }}">#{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
-    </article>
+      <a href="/tags/{{ $name | urlize }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
     {{end}}
+  </div>
   {{end}}
   {{- $cs := .CurrentSection }}
   {{- with $cs }}

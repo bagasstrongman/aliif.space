@@ -2,7 +2,7 @@
 title: Writing
 
 ---
-Saya menulis tentang teknologi dan **Software Engineering**, masih pemula ya bila ada salah mohon koreksinya.
+Saya menulis tentang teknologi dan  **Software Engineering**, masih pemula ya bila ada salah mohon koreksinya.
 
 <div class="search-article">
     <label for="search-input" aria-hidden="true">
