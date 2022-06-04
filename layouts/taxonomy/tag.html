@@ -9,10 +9,13 @@
     >#{{ .Title | urlize }}</strong
     >.
 </p>
+
 {{ range .Data.Pages }}
 <article class="list">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     <time>{{ .Date.Format "January 2, 2006" }}</time>
 </article>
 {{ end }}
+<p style="font-size: .9em;"><a href="/tags/">See all Tags</a></p>
 {{ end }}
+
