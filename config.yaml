@@ -69,7 +69,7 @@ markup:
     lineAnchors: ""
     lineNoStart: 1
     lineNos: false
-    lineNumbersInTable: true
+    lineNumbersInTable: false
     noClasses: true
     noHl: false
     style: "dracula"

@@ -113,7 +113,7 @@ public class CobaHashMap {
 
 #### Code block with Hugo's internal highlight shortcode
 
-{{< highlight html >}}
+{{< highlight html "hl_lines=1-8" >}}
 <!doctype html>
 <html lang="en">
   <head>
