@@ -16,7 +16,7 @@ enableGitInfo: true
 metaDataFormat: yaml
 
 permalinks:
-  writing: /:slug/
+  blog: /:slug/
   projects: /:slug/
   pages: /:slug/
 
