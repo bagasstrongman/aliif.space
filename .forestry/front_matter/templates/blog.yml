@@ -36,4 +36,4 @@ fields:
   label: show_comment
   default: true
 pages:
-- content/writing/welcome-new-homepage.md
+- content/blog/welcome-new-homepage.md
