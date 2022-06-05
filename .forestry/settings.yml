@@ -15,12 +15,12 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/writing
-  label: Writing
+  path: content/blog
+  label: Blog
   create: all
   match: "**/*"
   templates:
-  - writing
+  - blog
 - type: directory
   path: content/projects
   label: Projects

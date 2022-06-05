@@ -2,16 +2,16 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
 
-    {{ if or (eq .Section "writing") (eq .Section "projects") }}
+    {{ if or (eq .Section "blog") (eq .Section "projects") }}
       {{ partial "minread.html" . }}
       {{ partial "tags.html" .}}
     {{ end }}
   
   {{ .Content }}
 
-  {{ if or (eq .Section "writing") (eq .Section "projects") }}
+  {{ if or (eq .Section "blog") (eq .Section "projects") }}
     <p>----</p>
-  {{ if eq .Type "writing" }} {{ end }}
+  {{ if eq .Type "blog" }} {{ end }}
     {{ $date := .Date.Format "Jan 2, 2006" }}
     {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
     Published {{ $date }}

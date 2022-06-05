@@ -36,8 +36,8 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 2
-    - name: "Writing"
-      url: "/writing/"
+    - name: "Blog"
+      url: "/blog/"
       weight: 3
     - identifier: projects
       name: Projects
