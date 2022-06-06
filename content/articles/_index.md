@@ -1,5 +1,5 @@
 ---
-title: Writing
+title: Articles
 
 ---
 Saya menulis tentang teknologi dan  **Software Engineering**, masih pemula ya bila ada salah mohon koreksinya.

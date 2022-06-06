@@ -5,18 +5,19 @@
     <description>{{ .Site.Params.description }}</description>
     <link>{{ .Site.BaseURL }}</link>
     <!-- Optional channel elements -->
-    <language>en</language>
-    <copyright>Copyright {{ now.Format "2006"}}, Ronalds Vilcins</copyright>
+    <language>en-us</language>
+    {{ with .Site.Author.email }}<managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}
+    {{ with .Site.Author.email }}<webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}
+    <copyright>Copyright {{ now.Format "2006"}}, Aliif Arief</copyright>
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
-    <generator>{{ .Site.BaseURL }}</generator>
-    <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="https://ronaldsvilcins.com/atom.xml" rel="self" type="application/atom+xml"/>
-    {{ range where .Site.RegularPages "Section" "blog" }}
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="https://aliif.space/index.xml" rel="self" type="application/rss+xml"/>
+    {{ range .Site.RegularPages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <description>{{ .Content | html }}</description>
-      <author>me@aliif.space (Aliif Arief)</author>
+      <description>{{ .Summary | html }}</description>
+      {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     </item>

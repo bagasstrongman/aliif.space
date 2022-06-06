@@ -8,7 +8,7 @@
   <p>Semua Tags yang tersedia.</p>
   <div class="tags">
     {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-      <a href="/tags/{{ $name | urlize }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
+      <a href="/tags/{{ $name | urlize }}">{{ $name | humanize }}<sup>({{ $taxonomy.Count }})</sup></a>
     {{end}}
   </div>
   {{end}}

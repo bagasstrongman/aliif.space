@@ -12,7 +12,8 @@
   <link rel="canonical" href="{{ .Permalink | absURL }}">
   <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}atom.xml" />
   <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
-  <link rel="shortcut icon" type="image/svg" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzI5XzIpIj4KPHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNy4yMiA0LjkyOEw1LjcyNiA5LjUxOEg4LjY3OEw3LjIyIDQuOTI4Wk0yLjE2MiAxNFYxMy4wMjhMMy42MiAxMi44MTJMNy4yNzQgMi4xNTZIOS4xMjhMMTIuODE4IDEyLjkzOEwxMy45MTYgMTMuMDY0VjE0SDguMzU0VjEzLjA2NEw5Ljc0IDEyLjg4NEw5LjAwMiAxMC41NjJINS4zODRMNC42NjQgMTIuODEyTDYuMDMyIDEzLjAyOFYxNEgyLjE2MloiIGZpbGw9ImJsYWNrIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMjlfMiI+CjxyZWN0IHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
   <style>{{ $styles.Content | safeCSS }}</style>
   
@@ -107,7 +108,7 @@
 				{{- range .Site.Menus.main.ByWeight }}
                     {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
                     {{ $active = or $active (eq .Name $current.Title) }}
-                    {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog")) }}
+                    {{ $active = or $active (and (eq .Name "Articles") (eq $current.Section "articles")) }}
                     {{ $active = or $active (and (eq .Name "Projects") (eq $current.Section "projects")) }}
 					<li><a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a></li>
 				{{- end }}

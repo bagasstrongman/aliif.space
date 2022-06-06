@@ -1,5 +1,5 @@
 ---
-label: Blog
+label: Articles
 hide_body: false
 fields:
 - type: text
@@ -36,4 +36,4 @@ fields:
   label: show_comment
   default: true
 pages:
-- content/blog/welcome-new-homepage.md
+- content/articles/welcome-new-homepage.md

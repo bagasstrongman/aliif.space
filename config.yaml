@@ -16,7 +16,7 @@ enableGitInfo: true
 metaDataFormat: yaml
 
 permalinks:
-  blog: /:slug/
+  articles: /:slug/
   projects: /:slug/
   pages: /:slug/
 
@@ -36,8 +36,8 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 2
-    - name: "Blog"
-      url: "/blog/"
+    - name: "Articles"
+      url: "/articles/"
       weight: 3
     - identifier: projects
       name: Projects
@@ -83,6 +83,6 @@ sitemap:
 outputFormats:
   RSS:
     mediatype: application/rss
-    baseName: atom
+    baseName: index
 
 

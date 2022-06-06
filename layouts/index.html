@@ -2,9 +2,9 @@
   
   {{ .Content }}
   
-  {{ if gt ( len ( where .Pages "Section" "blog" )) 0 }}
+  {{ if gt ( len ( where .Pages "Section" "articles" )) 0 }}
     <h2>Latest articles</h2>
-    {{ range first 3 ( where .Site.RegularPages "Section" "blog" ) }}
+    {{ range first 3 ( where .Site.RegularPages "Section" "articles" ) }}
       <article class="list">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           <time>{{ .Date.Format "January 2, 2006" }}</time>

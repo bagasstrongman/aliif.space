@@ -15,6 +15,8 @@ Mulai kenal coding dari tahun 2019 akhir karena tugas jadi panitia event sekolah
 
 Belum bekerja dan target saya kerja sebelum umur 20 tahun bismillah di perusahaan kuda terbang bertanduk satu 🤣.
 
+Linkedin : [@aliif](https://www.linkedin.com/in/aliif/)
+
 Instagram : [@aliif.am](https://www.instagram.com/aliif.am/)
 
 Twitter : [@lifrief](https://twitter.com/lifrief)
@@ -26,3 +28,9 @@ GitLab : [@aliifam](https://gitlab.com/aliifam)
 Ada proyek atau ingin menghubungi saya lewat email.
 
 email : [me@aliif.space](mailto:me@aliif.space)
+
+Mau berlangganan website ini :
+
+Subsribe : [RSS](https://aliif.space/index.xml)
+
+Sitemap : [Sitemap](https://aliif.space/sitemap.xml)
