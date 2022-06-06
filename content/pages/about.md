@@ -33,7 +33,7 @@ email : [me@aliif.space](mailto:me@aliif.space)
 Mau berlangganan website ini :
 
 <p>Subsribe : 
-    <a href="https://aliif.space/index.xml" 
+    <a href="https://aliif.space/rss.xml" 
        class="cursor-newtab" 
        target="_blank"
     >RSS</a>

@@ -83,6 +83,6 @@ sitemap:
 outputFormats:
   RSS:
     mediatype: application/rss
-    baseName: index
+    baseName: rss
 
 
