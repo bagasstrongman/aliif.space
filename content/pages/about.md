@@ -1,5 +1,6 @@
 ---
 title: About
+description: Learn more about me Aliif Arief.
 date: '2021-12-06'
 images:
 - https://og.tailgraph.com/og?fontFamily=Roboto&title=About%20Me&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=Learn%20more%20about%20me%20Aliif%20Arief%20&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1654070936915&refresh=1

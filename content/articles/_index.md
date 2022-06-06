@@ -1,6 +1,9 @@
 ---
 title: Articles
-
+description: Saya menulis tentang teknologi dan Software Engineering.
+date: 2022-06-06T00:00:00+07:00
+images:
+- https://og.tailgraph.com/og?fontFamily=Roboto&title=All%20Articles&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=I%20am%20writing%20some%20articles%20here.&textTailwind=text-gray-700%20text-2xl%20mt-4&textFontFamily=Inter&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1654495471553&refresh=1
 ---
 Saya menulis tentang teknologi dan  **Software Engineering**, masih pemula ya bila ada salah mohon koreksinya.
 
