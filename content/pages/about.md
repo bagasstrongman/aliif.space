@@ -31,6 +31,16 @@ email : [me@aliif.space](mailto:me@aliif.space)
 
 Mau berlangganan website ini :
 
-Subsribe : [RSS](https://aliif.space/index.xml)
+<p>Subsribe : 
+    <a href="https://aliif.space/index.xml" 
+       class="cursor-newtab" 
+       target="_blank"
+    >RSS</a>
+</p>
 
-Sitemap : [Sitemap](https://aliif.space/sitemap.xml)
+<p>Sitemap : 
+    <a href="https://aliif.space/sitemap.xml" 
+       class="cursor-newtab" 
+       target="_blank"
+    >Sitemap</a>
+</p>
