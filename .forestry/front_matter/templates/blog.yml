@@ -36,4 +36,5 @@ fields:
   label: show_comment
   default: true
 pages:
+- content/articles/selamat-datang-semua.md
 - content/articles/welcome-new-homepage.md
