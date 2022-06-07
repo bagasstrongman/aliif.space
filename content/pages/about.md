@@ -1,14 +1,14 @@
 ---
 title: About
 description: Learn more about me Aliif Arief.
-date: '2021-12-06'
+date: 2021-12-06
 images:
 - https://og.tailgraph.com/og?fontFamily=Roboto&title=About%20Me&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=Learn%20more%20about%20me%20Aliif%20Arief%20&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1654070936915&refresh=1
----
 
+---
 Halo Semua,
 
-Perkenalkan nama saya Aliif inget i nya 2 ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript tapi baru - baru ini sedang pake PHP(tuntutan matkul).
+Perkenalkan nama saya Aliif **inget i nya 2** ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript tapi baru - baru ini sedang pake PHP(tuntutan matkul) capek ngoding php harus menggapai $ di keyboard atas.
 
 Beberapa hal unik tentang saya, saya belum pernah naik pesawat, belum pernah merokok (Aktif), pemenang penghargaan Santri tertidur tahun 2016, dan juara 2 Stand Up Comedy se Pesantren 2017.
 
@@ -32,16 +32,23 @@ email : [me@aliif.space](mailto:me@aliif.space)
 
 Mau berlangganan website ini :
 
-<p>Subsribe : 
-    <a href="https://aliif.space/rss.xml" 
-       class="cursor-newtab" 
-       target="_blank"
-    >RSS</a>
+<p>Subsribe :
+<a href="https://aliif.space/rss.xml"
+class="cursor-newtab"
+target="_blank"
+>RSS</a>
 </p>
 
-<p>Sitemap : 
-    <a href="https://aliif.space/sitemap.xml" 
-       class="cursor-newtab" 
-       target="_blank"
-    >Sitemap</a>
+<p>Analytic :
+<a href="https://umami.aliif.space/share/C5b0DgXU/aliif.space"
+class="cursor-newtab"
+target="_blank"
+>Realtime Analytic</a>
+</p>
+
+<p>Sitemap :
+<a href="https://aliif.space/sitemap.xml"
+class="cursor-newtab"
+target="_blank"
+>Sitemap</a>
 </p>
