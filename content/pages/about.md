@@ -35,23 +35,19 @@ Mau berlangganan website ini :
 <p>Subsribe :
 <a href="https://aliif.space/rss.xml"
 class="cursor-newtab"
-target="_blank"
-
-> RSS</a>
-> </p>
+target="_blank"> RSS</a>
+</p>
 
 <p>Analytic :
 <a href="https://umami.aliif.space/share/C5b0DgXU/aliif.space"
 class="cursor-newtab"
-target="_blank"
-
-> Realtime Analytic</a>
-> </p>
+target="_blank"> Realtime Analytic</a>
+</p>
 
 <p>Sitemap :
 <a href="https://aliif.space/sitemap.xml"
 class="cursor-newtab"
-target="_blank"
+target="_blank"> Sitemap</a>
+</p>
 
-> Sitemap</a>
-> </p>
+Btw terimakasih kunjungannya ya.
