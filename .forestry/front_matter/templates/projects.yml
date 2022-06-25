@@ -36,3 +36,5 @@ fields:
   type: boolean
   label: show_comment
   default: false
+pages:
+- content/projects/improvisasi-caesar-cipher.md
