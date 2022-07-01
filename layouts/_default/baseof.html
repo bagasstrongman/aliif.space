@@ -96,6 +96,8 @@
         document.documentElement.setAttribute("data-theme","light");
     }
 </script>
+{{ $love := resources.Get "js/love.js" }}
+<script src="{{ $love.Permalink | relURL }}" defer></script>
 </head>
 <body>
 	<main>

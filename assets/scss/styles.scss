@@ -428,6 +428,184 @@ svg {
   }
 }
 
+//begin share
+.social-share {
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.share-text {
+  display: flex;
+  align-items: center;
+}
+
+.share-button {
+  margin-left: auto;
+  display: flex;
+}
+
+.share-button > a {
+  display: flex;
+  align-items: center;
+}
+
+.share-button > a > svg {
+  fill: var(--base-color);
+}
+
+.share-post {
+  color: var(--main-text-color);
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+applause-button {
+  position: relative;
+  cursor: pointer;
+}
+applause-button .style-root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+applause-button .style-root:hover:after:not(.clap-limit-exceeded) {
+  border-color: inherit;
+}
+applause-button.loading {
+  opacity: 0.5;
+}
+applause-button .shockwave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+}
+applause-button svg {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+  margin-top: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+  stroke: none;
+  overflow: visible !important;
+}
+applause-button svg g.flat {
+  visibility: hidden;
+}
+applause-button svg g.outline {
+  visibility: visible;
+}
+applause-button.clapped svg g.flat {
+  visibility: visible;
+}
+applause-button.clapped svg g.outline {
+  visibility: hidden;
+}
+applause-button .count-container {
+  position: absolute;
+  top: 15%;
+  font-size: 18px;
+  left: 95%;
+  width: 100%;
+  color: var(--main-text-color);
+  user-select: none;
+}
+applause-button .count-container .count {
+  text-align: left;
+  color: var(--base-color);
+}
+applause-button g.sparkle circle {
+  opacity: 0;
+  stroke-width: 0;
+}
+
+applause-button.clap .style-root svg {
+  animation-name: pulse;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+}
+applause-button.clap .sparkle circle {
+  animation-name: explode;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes explode {
+  0% {
+      transform: translateX(10px);
+      opacity: 0;
+  }
+  20% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: translateX(25px);
+  }
+}
+@keyframes shockwave {
+  0% {
+      transform: scale(1);
+      box-shadow: 0 0 2px;
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+      box-shadow: 0 0 50px, inset 0 0 10px;
+  }
+}
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+@keyframes hideThenShow {
+  0% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  20% {
+      opacity: 0;
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(0px);
+  }
+  80% {
+      transform: translateY(0px);
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+//end share
+
 @media only screen and (max-width: 425px) {
 
   h1 { font-size: 1.50em; }
