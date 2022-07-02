@@ -610,6 +610,8 @@ applause-button.clap .sparkle circle {
 
 .toast {
   position: fixed;
+  display: flex;
+  align-items: center;
   border-radius: 5px;
   bottom: 30px;
   left: 50%;
