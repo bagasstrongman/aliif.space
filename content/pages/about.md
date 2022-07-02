@@ -52,4 +52,4 @@ target="_blank"> Sitemap</a>
 
 Btw terimakasih kunjungannya ya.
 
-Buat yang kepo [Source Code Website ini](github.com/aliifam/aliif.space "source code aliif.space").
+Buat yang kepo [Source Code Website ini](https://github.com/aliifam/aliif.space "source code aliif.space").
