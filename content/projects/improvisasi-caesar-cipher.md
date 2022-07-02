@@ -12,9 +12,9 @@ show_comment: false
 ---
 Halo semua,
 
-Kali ini aku mau sharing project akhir kelompok mata kuliah Praktikum Struktur Data dan Mata Kuliah Analisis Algoritma.
+Kali ini saya mau sharing project akhir kelompok mata kuliah Praktikum Struktur Data dan Mata Kuliah Analisis Algoritma.
 
-Project ini aku buat berdua bersama teman sekelasku Fikri Milano, jadi di project ini kami mencoba untuk meningkatkan kekuatan dan abstraksi dalam algoritma enkripsi Caesar Ciper, kami menggunakan index urutan tiap karakter sebagai parameter dinamis sehingga hasil enkripsi tiap karakter akan menjadi dinamis.
+Project ini saya buat berdua bersama teman sekelasku Fikri Milano, jadi di project ini kami mencoba untuk meningkatkan kekuatan dan abstraksi dalam algoritma enkripsi Caesar Ciper, kami menggunakan index urutan tiap karakter sebagai parameter dinamis sehingga hasil enkripsi tiap karakter akan menjadi dinamis.
 
 Maksud dari dinamis adalah hasil enkripsi tiap karakter tidak bergantung kepada key nya saja namun juga diabstraksi sesuai dengan urutan index karakter tersebut dalam string karakter yang dienkripsi.
 
