@@ -167,18 +167,22 @@ pre code {
   border-radius: 9px;
 }
 code {
-  background-color: #282a36;
-  border: 1px solid #334155;
-  border-radius: 0;
-  color: #fff;
+  background-color: var(--base-low);
+  border: 1px solid rgba(128,128,128,0.1);
+  border-radius: 5px;
+  color: var(--base-color);
   padding: 0.01rem 0.2rem;
 }
 
-code span {
+code > span {
   display: inline !important;
 }
-
+code > span > span {
+  margin-right: 20px;
+}
 pre code {
+  background-color: #282a36;
+  border: 1px solid #334155;
   display: block;
   font-size: 15px;
   color: #fff;
@@ -602,6 +606,23 @@ applause-button.clap .sparkle circle {
       opacity: 1;
       transform: translateY(0);
   }
+}
+
+.toast {
+  position: fixed;
+  border-radius: 5px;
+  bottom: 30px;
+  left: 50%;
+  padding: 10px;
+  background-color: var(--base-color);
+  color: var(--bg-color);
+  transform: translate(-50%, 0);
+  animation: fadeintoast 0.5s;
+  font-size: 14px;
+}
+@keyframes fadeintoast {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
 }
 //end share
 

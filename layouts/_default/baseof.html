@@ -148,6 +148,16 @@
           document.documentElement.setAttribute("data-theme","light");
         }
     }
+    function toast(link, timeout = 3000) {  
+        const div = document.createElement('div')
+        div.className = 'toast'
+        navigator.clipboard.writeText(link);
+        div.innerHTML = '✔️ Link Copied!'  
+        setTimeout(function(){
+          div.remove()
+        }, timeout);
+        document.body.appendChild(div);  
+      }
 </script>
 {{ $blank := resources.Get "js/blank.js" }}
 <script src="{{ $blank.Permalink | relURL }}" defer></script>
