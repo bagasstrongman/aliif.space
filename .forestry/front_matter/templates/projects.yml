@@ -30,8 +30,8 @@ fields:
   name: slug
   label: slug
 - type: list
-  name: image
-  label: image
+  name: images
+  label: images
 - name: show_comment
   type: boolean
   label: show_comment

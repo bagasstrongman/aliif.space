@@ -5,7 +5,7 @@ description: Improvisasi Algoritma Enkripsi Caesar Cipher dengan Index sebagai D
 date: 2022-06-06T00:00:00.000+07:00
 lastmod: 2022-07-03T00:00:00+07:00
 slug: caesar-custom
-image:
+images:
 - https://og.tailgraph.com/og?fontFamily=Inter&title=Improvisasi%20Caesar%20Cipher&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Improvisasi%20Algoritma%20Enkripsi%20Caesar%20Cipher%20dengan%20Dynamic%20Parameter&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1656150052413&refresh=1
 show_comment: false
 
