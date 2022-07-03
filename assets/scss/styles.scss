@@ -627,7 +627,71 @@ applause-button.clap .sparkle circle {
     to {bottom: 30px; opacity: 1;}
 }
 //end share
+//next prev
+.post-nav {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 0;
+  line-height: 1.4;
 
+  .post-nav-item {
+    border-bottom: 0;
+    padding-bottom: 10px;
+
+    .post-title {
+      color: var(--main-text-color);
+    }
+
+    &:hover,
+    &:focus {
+      .post-title {
+        color: var(--link-color);
+        opacity: 0.9;
+      }
+    }
+
+    .nav-arrow {
+      font-size: 17px;
+      color: var(--main-text-color);
+      margin-bottom: 3px;
+	  font-weight: bold;
+    }
+
+    width: 50%;
+    padding-top: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    &:nth-child(odd) {
+      padding-left: 0;
+      padding-right: 20px;
+      border-top: 1px solid gray;
+      border-right: 1px solid gray;
+      width: 100%;
+    }
+
+    &:nth-child(even) {
+      text-align: right;
+      padding-right: 0;
+      padding-left: 20px;
+      border-top: 1px solid gray;
+      width: 100%;
+    }
+  }
+} 	
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .post-nav {
+    flex-direction: column;
+  }
+  .post-nav .post-nav-item:nth-child(odd) {
+    border-right: none;
+  }
+}
+
+//end next prev
 @media only screen and (max-width: 425px) {
 
   h1 { font-size: 1.50em; }
