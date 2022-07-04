@@ -640,6 +640,7 @@ applause-button.clap .sparkle circle {
   flex-direction: row;
   position: relative;
   margin-top: 0;
+  margin-bottom: 2rem;
   line-height: 1.4;
 
   .post-nav-item {
@@ -647,20 +648,20 @@ applause-button.clap .sparkle circle {
     padding-bottom: 10px;
 
     .post-title {
-      color: var(--main-text-color);
+      color: var(--base-color);
     }
 
     &:hover,
     &:focus {
       .post-title {
-        color: var(--link-color);
+        color: var(--base-color);
         opacity: 0.9;
       }
     }
 
     .nav-arrow {
       font-size: 17px;
-      color: var(--main-text-color);
+      color: var(--base-color);
       margin-bottom: 3px;
 	  font-weight: bold;
     }
