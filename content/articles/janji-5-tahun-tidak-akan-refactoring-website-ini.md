@@ -8,7 +8,7 @@ description: Janji saya 5 tahun dari sekarang tidak akan migrasi tech stack webs
   ini.
 date: 2022-07-04T09:15:00+07:00
 lastmod: 
-slug: janji-5-tahun-blog-ini
+slug: janji-5-tahun-website-ini
 images:
 - https://og.tailgraph.com/og?fontFamily=Inter&title=Janji%205%20Tahun%20blog%20ini.&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=Janji%205%20tahun%20blog%20ini%20tidak%20akan%20migrasi%20Tech%20Stack%20dan%20Ganti%20Tema&textTailwind=text-gray-700%20text-2xl%20mt-4&textFontFamily=Inter&logoUrl=&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-gray-600&t=1654527274278&refresh=1
 
