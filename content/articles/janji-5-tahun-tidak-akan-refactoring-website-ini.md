@@ -3,7 +3,7 @@ tags:
 - special
 - random
 show_comment: true
-title: Janji 5 Tahun Tidak akan Refactoring Website ini
+title: Janji 5 Tahun Website ini
 description: Janji saya 5 tahun dari sekarang tidak akan migrasi tech stack website
   ini.
 date: 2022-06-06T09:15:00.000+07:00
