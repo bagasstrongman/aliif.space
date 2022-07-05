@@ -1,11 +1,11 @@
 ---
 title: ECommerce Buku Sederhana
 description: Membuat ECommerce Buku Sederhana dengan PHP Native dan MariaDB
-date: 2022-06-04T00:58:00+07:00
+date: 2022-06-20T00:58:00+07:00
 lastmod: 
 slug: ecommerce-buku-simpel
 images:
-- https://og.tailgraph.com/og?fontFamily=Inter&title=ECommerce%20Buku%20Sederhana&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Membuat%20ECommerce%20Buku%20Sederhana%20dengan%20PHP%20Native%20dan%20MariaDB&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=tailgraph.com&footerTailwind=text-teal-600&t=1657002863594&refresh=1
+- https://og.tailgraph.com/og?fontFamily=Inter&title=ECommerce%20Buku%20Sederhana&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Membuat%20ECommerce%20Buku%20Sederhana%20dengan%20PHP%20Native%20dan%20MariaDB&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1657002863594&refresh=1
 show_comment: false
 
 ---
