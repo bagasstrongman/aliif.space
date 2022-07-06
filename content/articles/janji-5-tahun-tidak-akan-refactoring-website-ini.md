@@ -1,12 +1,12 @@
 ---
 tags:
-- special
 - random
+- spesial
 show_comment: true
 title: Janji 5 Tahun Website ini
 description: Janji saya 5 tahun dari sekarang tidak akan migrasi tech stack website
   ini.
-date: 2022-07-04T09:15:00+07:00
+date: 2022-07-04T09:15:00.000+07:00
 lastmod: 
 slug: janji-5-tahun-website-ini
 images:
