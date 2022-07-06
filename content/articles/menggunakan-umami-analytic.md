@@ -1,7 +1,7 @@
 ---
 tags:
-- tool
 - open source
+- tools
 show_comment: true
 title: Menggunakan Umami Analytic
 description: Menggunakan Umami Analytic untuk menggantikan Google Analytic
@@ -20,7 +20,7 @@ Saya memutuskan untuk menggunakan Umami karena tampilannya yang bagus, performa 
 
 ![Umami Analytic](/uploads/umami.png "Umami Analytic")
 
-Gambar diatas merupakan Screenshot dari [dashboard shared](https://umami.aliif.space/share/C5b0DgXU/aliif.space) Umami saya, sangat bagus kan?, untuk cara instalasi ada dalam dokumentasi di website resminya [umami](), bila ingin tutorial instalasi nya dalam bahasa Indonesia dan ramah pemula tenang saja saya sudah membuatkan video tutorialnya.
+Gambar diatas merupakan Screenshot dari [dashboard shared](https://umami.aliif.space/share/C5b0DgXU/aliif.space) Umami saya, sangat bagus kan?, untuk cara instalasi ada dalam dokumentasi di website resminya [umami](https://umami.is/), bila ingin tutorial instalasi nya dalam bahasa Indonesia dan ramah pemula tenang saja saya sudah membuatkan video tutorialnya.
 
 {{< youtube id="6rUsrNqa_F4" autoplay="false" >}}
 
