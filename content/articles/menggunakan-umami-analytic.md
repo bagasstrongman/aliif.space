@@ -18,12 +18,14 @@ Kali ini saya akan sharing project open source yang keren dan berguna namanya Um
 
 Saya memutuskan untuk menggunakan Umami karena tampilannya yang bagus, performa yang cepat, dan tentunya open source sehingga dapat dipastikan Umami tidak melanggar Privasi pengunjung website kita.
 
-![](/uploads/umami.png)
+![Umami Analytic](/uploads/umami.png "Umami Analytic")
 
 Gambar diatas merupakan Screenshot dari [dashboard shared](https://umami.aliif.space/share/C5b0DgXU/aliif.space) Umami saya, sangat bagus kan?, untuk cara instalasi ada dalam dokumentasi di website resminya [umami](), bila ingin tutorial instalasi nya dalam bahasa Indonesia dan ramah pemula tenang saja saya sudah membuatkan video tutorialnya.
 
-{{< youtube id="T7vC35osJ_Q" autoplay="false" >}}
+{{< youtube id="6rUsrNqa_F4" autoplay="false" >}}
 
 Untuk embed script nya Umami jelas jauh lebih ringan dari Google Analytic, selain itu Umami juga mengklaim ketahanannya terhadap adblocker sehingga walaupun pengunjung menggunakan adblock Umami akan tetap bisa berjalan dengan baik.
+
+Mari kita gunakan tools yang open source agar semakin berkembang, oh ya setelah digunakan dan anda mendapatkan manfaatnya saya ingatkan agar tak lupa untuk tap star di [repository GitHub](https://github.com/umami-software/umami)-nya untuk menghargai usaha kreator dan para kontibutornya.
 
 Sekian tulisan saya semoga bermanfaat terimakasih sudah membaca.
