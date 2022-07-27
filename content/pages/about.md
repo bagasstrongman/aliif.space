@@ -8,7 +8,7 @@ images:
 ---
 Halo Semua,
 
-Perkenalkan nama saya Aliif **inget i nya 2** ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript tapi baru - baru ini sedang pake PHP(tuntutan matkul) capek ngoding php harus menggapai $ di keyboard atas.
+Perkenalkan nama saya Aliif **inget i nya 2** ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript tapi baru - baru ini sedang pake PHP(tuntutan matkul) capek ngoding php harus menggapai $ di keyboard atas, sekarang saya menggunakan Elementary OS sebagai daily dirver operatis system.
 
 Beberapa hal unik tentang saya, saya belum pernah naik pesawat, belum pernah merokok (Aktif), pemenang penghargaan Santri tertidur tahun 2016, dan juara 2 Stand Up Comedy se Pesantren 2017.
 
