@@ -33,15 +33,11 @@ tinggal masukkan password sudo nya saja lalu enter maka boom, htdocs kita sudah 
 
 Maksud dari perintah diatas adalah:
 
-- `sudo` adalah perintah untuk melakukan berbagai operasi yang membutuhkan password agar sistem tetap aman.
-
-- `chmod` adalah perintah untuk mengubah permission sebuah folder ataupun file.
-
-- `777` adalah kode dari permission yang kita berikan sehingga hak akses menjadi everyone.
-
-- `-R\` adalah rekursif yang berarti perintah tersebut juga berlaku untuk semua folder dan file yang ada pada folder induk nya.
-
-- `/opt/lampp/htdocs` adalah path dari folder yang akan kita ubah permissionnya.
+* `sudo` adalah perintah untuk melakukan berbagai operasi yang membutuhkan password agar sistem tetap aman.
+* `chmod` adalah perintah untuk mengubah permission sebuah folder ataupun file.
+* `777` adalah kode dari permission yang kita berikan sehingga hak akses menjadi everyone.
+* `-R` adalah rekursif yang berarti perintah tersebut juga berlaku untuk semua folder dan file yang ada pada folder induk nya.
+* `/opt/lampp/htdocs` adalah path dari folder yang akan kita ubah permissionnya.
 
 FYI aja nih sebelumnya saya mensetting kode permissionnya dengan kode `755` namun ketika saya melakukan instalasi dan konfigurasi cms wordpress di htdocs sering terjadi error ketika mengupload plugin atau tema sehingga saya menemukan solusi ini dan ketika saya terapkan kode `777` semua error di wordpress seketika hilang dan menjadi lancar jaya.
 
