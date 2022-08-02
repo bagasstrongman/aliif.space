@@ -16,15 +16,15 @@ Mulai kenal coding dari tahun 2019 akhir karena tugas jadi panitia event sekolah
 
 Belum bekerja dan target saya kerja sebelum umur 20 tahun bismillah di perusahaan kuda terbang bertanduk satu 🤣.
 
-Linkedin : [@aliif](https://www.linkedin.com/in/aliif/)
+Linkedin: [@aliif](https://www.linkedin.com/in/aliif/)
 
-Instagram : [@aliif.am](https://www.instagram.com/aliif.am/)
+Instagram: [@aliif.am](https://www.instagram.com/aliif.am/)
 
-Twitter : [@aliifarm](https://twitter.com/aliifarm "my twitter")
+Twitter: [@aliifarm](https://twitter.com/aliifarm "my twitter")
 
-GitHub : [@aliifam](https://github.com/aliifam)
+GitHub: [@aliifam](https://github.com/aliifam)
 
-GitLab : [@aliifam](https://gitlab.com/aliifam)
+GitLab: [@aliifam](https://gitlab.com/aliifam)
 
 Ada proyek atau ingin menghubungi saya lewat email.
 
