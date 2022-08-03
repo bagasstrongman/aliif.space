@@ -51,3 +51,11 @@ target="_blank"> Sitemap</a>
 </p>
 
 Btw terimakasih kunjungannya ya.
+
+## Support
+
+Bila anda ingin mendukung saya anda bisa mendukung saya melalui:
+
+* [Trakteer](https://trakteer.id/aliifam/tip "Trakteer")
+* [Saweria](https://saweria.co/aliif "saweria")
+* [Patreon](https://www.patreon.com/aliif "Patreon")
