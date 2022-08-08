@@ -36,6 +36,7 @@ fields:
   label: show_comment
   default: true
 pages:
+- content/articles/how-to-redirect-cloudflare-pages-domain-to-custom-domain.md
 - content/articles/janji-5-tahun-tidak-akan-refactoring-website-ini.md
 - content/articles/javascript-detructuring-object.md
 - content/articles/memahami-class-dan-object-dalam-oop.md
