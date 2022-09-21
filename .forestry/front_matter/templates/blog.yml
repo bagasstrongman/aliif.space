@@ -38,6 +38,7 @@ fields:
 pages:
 - content/articles/19.md
 - content/articles/6-32.md
+- content/articles/belajar-singleton-design-pattern.md
 - content/articles/how-to-redirect-cloudflare-pages-domain-to-custom-domain.md
 - content/articles/janji-5-tahun-tidak-akan-refactoring-website-ini.md
 - content/articles/javascript-detructuring-object.md
