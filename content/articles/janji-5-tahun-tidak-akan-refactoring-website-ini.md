@@ -1,7 +1,6 @@
 ---
 tags:
 - random
-- spesial
 show_comment: true
 title: Janji 5 Tahun Website ini
 description: Janji saya 5 tahun dari sekarang tidak akan migrasi tech stack website
