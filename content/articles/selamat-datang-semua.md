@@ -1,11 +1,10 @@
 ---
 tags:
-- spesial
 - random
 show_comment: true
 title: Selamat Datang Semua
 description: Ucapan selamat datang untuk semua yang berkunjung dari saya tuan rumah.
-date: 2022-06-06T01:21:00+07:00
+date: 2022-06-06T01:21:00.000+07:00
 lastmod: 
 slug: selamat-datang
 images:
