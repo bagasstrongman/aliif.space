@@ -26,6 +26,8 @@ GitHub: [@aliifam](https://github.com/aliifam)
 
 GitLab: [@aliifam](https://gitlab.com/aliifam)
 
+Medium : [@aliifam](https://blog.aliif.space)
+
 Ada proyek atau ingin menghubungi saya lewat email.
 
 email : [me@aliif.space](mailto:me@aliif.space)
