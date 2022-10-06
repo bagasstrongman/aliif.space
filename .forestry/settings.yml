@@ -32,7 +32,7 @@ upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
 use_front_matter_path: true
-file_template: ":filename:"
+file_template: ":day:-:month:-:year:-:filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
