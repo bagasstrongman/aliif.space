@@ -8,11 +8,9 @@ images:
 ---
 Halo Semua,
 
-Perkenalkan nama saya Aliif **inget i nya 2** ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript, dan PHP
+Perkenalkan nama saya Aliif **inget i nya 2** ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript, dan PHP.
 
-Beberapa hal unik tentang saya, saya belum pernah naik pesawat, belum pernah merokok (Aktif), pemenang penghargaan Santri tertidur tahun 2016, dan juara 2 Stand Up Comedy se Pesantren 2017.
-
-Mulai kenal coding dari tahun 2019 akhir karena tugas jadi panitia event sekolah waktu itu masih SMA untuk bikin website acara, setelah acara selesai saya jadi suka ngulik dan akhirnya memutuskan untuk ngambil jurusan IT.
+Mulai kenal pemrograman dari tahun 2019 akhir karena tugas jadi panitia event sekolah waktu itu masih SMA untuk bikin website acara, setelah acara selesai saya jadi suka ngulik dan akhirnya memutuskan untuk ngambil jurusan IT.
 
 Belum bekerja dan target saya kerja sebelum umur 20 tahun bismillah di perusahaan kuda terbang bertanduk satu 🤣.
 
@@ -26,7 +24,7 @@ GitHub: [@aliifam](https://github.com/aliifam)
 
 GitLab: [@aliifam](https://gitlab.com/aliifam)
 
-Medium : [@aliifam](https://blog.aliif.space)
+Medium: [@aliifam](https://blog.aliif.space)
 
 Ada proyek atau ingin menghubungi saya lewat email.
 
