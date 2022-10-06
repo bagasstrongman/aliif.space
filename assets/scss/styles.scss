@@ -394,7 +394,7 @@ nav a:hover {
 @-webkit-keyframes fadeInTop {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(50%);
   }
   100% {
     opacity: 1;
@@ -407,8 +407,9 @@ nav a:hover {
   word-wrap: break-word;
   animation: fadeInTop 0.3s;
   -webkit-animation: fadeInTop 0.3s;
-  animation-fill-mode: both;
-  -webkit-animation-fill-mode: both;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  transition-timing-function: ease-in-out;
 }
 
 .content p a {
