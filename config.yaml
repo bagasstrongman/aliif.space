@@ -47,7 +47,7 @@ menu:
 params:
   description: "I am Software Engineering student at Gadjah Mada University with a focus on backend application development."
   images: 
-  - https://og.tailgraph.com/og?fontFamily=Inter&title=Aliif%20Arief's%20Homepage&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=I%20am%20a%20first%20year%20software%20engineering%20student%20at%20Gadjah%20Mada%20University%20with%20a%20focus%20on%20backend%20application%20development.&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-blueGray-500&t=1652777858725&refresh=1
+  - https://og.tailgraph.com/og?fontFamily=Inter&title=Aliif%20Arief's%20Homepage&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=I%20am%20Software%20Engineering%20student%20at%20Gadjah%20Mada%20University&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-blueGray-300&footer=aliif.space&footerTailwind=text-blueGray-600&containerTailwind=bg-transparent&t=1665236849887&refresh=1
   FooterText: "Aliif Arief"
 
 frontmatter:

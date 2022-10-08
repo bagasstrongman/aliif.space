@@ -65,6 +65,6 @@ berikut link repository Github nya : [Github Activity Generator](https://github.
 
 Alur dari program ini berjalan adalah pertama kita tentukan kapan awal tanggal komit di masa lampau yang kita inginkan jadi hijau lalu tentukan frekuensi komit per hari nya lalu tentukan link repository GitHub kosong untuk dummy nya saja lalu jalankan programnya pastikan komputer sudah terpasang aplikasi Git dan sudah terkonfigurasi dengan GitHub, maka program akan membuat file `commit.txt` dan akan melakukan komit berulang - ulang sampai target terpenuhi saat commit tanggal commit juga dimanipulasi agar hijaunya merata setelah looping selesai maka program otomatis langsung push repo ke GitHub dan voila timeline GitHub anda akan menjadi seperti Hutan di Kalimantan saat sebelum di Tebangin.
 
-Saya membuat proyek ini karena gabut aja dan ingin mengamalkan ilmu functional programming di semester 1 perkuliahan.
+Saya membuat proyek ini karena gabut aja dan ingin mengamalkan ilmu dasar pemrograman di semester 1 perkuliahan.
 
 Mohon digunakan dengan bijak, terimakasih sudah membaca.
