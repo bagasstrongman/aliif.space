@@ -8,27 +8,15 @@ images:
 ---
 Halo Semua,
 
-Perkenalkan nama saya Aliif **inget i nya 2** ya jadi nama saya termasuk antimainstream, intinya mah saya masih mahasiswa dan saya tertarik dalam dunia pemrograman, biasanya saya coding pake bahasa Python, Java, dan JavaScript, dan PHP.
+Perkenalkan nama saya Aliif **inget i nya 2** ya, 
 
-Mulai kenal pemrograman dari tahun 2019 akhir karena tugas jadi panitia event sekolah waktu itu masih SMA untuk bikin website acara, setelah acara selesai saya jadi suka ngulik dan akhirnya memutuskan untuk ngambil jurusan IT.
+Bila anda ingin menjalin **relasi profesional** dengan saya bisa lewat connect langsung di [LindekIn](https://www.linkedin.com/in/aliif/ "Linkedin Aliif"), bila anda ingin mendengar **kicauan** saya mari mutualan di [Twitter](https://twitter.com/aliifarm "Twitter Aliif"), bila anda ingin melihat **project** saya anda bisa mengunjungi [GitHub](https://github.com/aliifam "GitHub Aliif") dan [GitLab](https://gitlab.com/aliifam "Aliif GitLab") saya, Bila anda Ingin membaca tulisan saya **diluar topik** teknikal anda bisa membacanya di [Medium](https://blog.aliif.space/ "Medium Aliif"), bila anda **tidak ingin melihat** saya maka silahkan follow [Instagram ](https://www.instagram.com/aliif.am/ "Instagram Aliif")saya.
 
-Belum bekerja dan target saya kerja sebelum umur 20 tahun bismillah di perusahaan kuda terbang bertanduk satu 🤣.
+Saya selalu open untuk penawaran **project** ataupun **pekerjaan** terutama yang menggunakan Tech Stack ReactJS dan Laravel, diluar itu bisa dipertimbangkan sesuai kemampuan dan kebutuhannya.
 
-Linkedin: [@aliif](https://www.linkedin.com/in/aliif/)
+Ada **proyek** atau ingin menghubungi saya lewat email?
 
-Instagram: [@aliif.am](https://www.instagram.com/aliif.am/)
-
-Twitter: [@aliifarm](https://twitter.com/aliifarm "my twitter")
-
-GitHub: [@aliifam](https://github.com/aliifam)
-
-GitLab: [@aliifam](https://gitlab.com/aliifam)
-
-Medium: [@aliifam](https://blog.aliif.space)
-
-Ada proyek atau ingin menghubungi saya lewat email.
-
-email : [me@aliif.space](mailto:me@aliif.space)
+**Email** : [me@aliif.space](mailto:me@aliif.space)
 
 Mau berlangganan website ini :
 
@@ -49,8 +37,6 @@ target="_blank"> Realtime Analytic</a>
 class="cursor-newtab"
 target="_blank"> Sitemap</a>
 </p>
-
-Btw terimakasih kunjungannya ya.
 
 ## Support
 
