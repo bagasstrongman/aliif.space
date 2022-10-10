@@ -8,11 +8,11 @@ images:
 ---
 Halo Semua,
 
-Perkenalkan nama saya Aliif **inget i nya 2** ya, 
+Perkenalkan nama saya Aliif **inget i nya 2** ya,
 
 Bila anda ingin menjalin **relasi profesional** dengan saya bisa lewat connect langsung di [LindekIn](https://www.linkedin.com/in/aliif/ "Linkedin Aliif"), bila anda ingin mendengar **kicauan** saya mari mutualan di [Twitter](https://twitter.com/aliifarm "Twitter Aliif"), bila anda ingin melihat **project** saya anda bisa mengunjungi [GitHub](https://github.com/aliifam "GitHub Aliif") dan [GitLab](https://gitlab.com/aliifam "Aliif GitLab") saya, Bila anda Ingin membaca tulisan saya **diluar topik** teknikal anda bisa membacanya di [Medium](https://blog.aliif.space/ "Medium Aliif"), bila anda **tidak ingin melihat** saya maka silahkan follow [Instagram ](https://www.instagram.com/aliif.am/ "Instagram Aliif")saya.
 
-Saya selalu open untuk penawaran **project** ataupun **pekerjaan** terutama yang menggunakan Tech Stack ReactJS dan Laravel, diluar itu bisa dipertimbangkan sesuai kemampuan dan kebutuhannya.
+Bila anda ingin **mendengar** suara saya, saya terkadang membuat video screencast baik tutorial maupun belajar bersama di channel[ YouTube ](https://www.youtube.com/aliif "YouTube Aliif")saya.
 
 Ada **proyek** atau ingin menghubungi saya lewat email?
 
