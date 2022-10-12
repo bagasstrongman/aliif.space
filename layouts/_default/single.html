@@ -11,6 +11,7 @@
 
   {{ if or (eq .Section "articles") (eq .Section "projects") }}
     <p>----</p>
+    <p>Subcribe <a href="http://newsletter.aliif.space">Newsletter</a></p>
   {{ if eq .Type "articles" }} {{ end }}
     {{ $date := .Date.Format "Jan 2, 2006" }}
     {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
