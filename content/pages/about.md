@@ -12,11 +12,13 @@ Perkenalkan nama saya Aliif **inget i nya 2** ya,
 
 Bila anda ingin menjalin **relasi profesional** dengan saya bisa lewat connect langsung di [LindekIn](https://www.linkedin.com/in/aliif/ "Linkedin Aliif"), bila anda ingin mendengar **kicauan** saya mari mutualan di [Twitter](https://twitter.com/aliifarm "Twitter Aliif"), bila anda ingin melihat **project** saya anda bisa mengunjungi [GitHub](https://github.com/aliifam "GitHub Aliif") dan [GitLab](https://gitlab.com/aliifam "Aliif GitLab") saya, Bila anda Ingin membaca tulisan saya **diluar topik** teknikal anda bisa membacanya di [Medium](https://blog.aliif.space/ "Medium Aliif"), bila anda **tidak ingin melihat** saya maka silahkan follow [Instagram ](https://www.instagram.com/aliif.am/ "Instagram Aliif")saya.
 
-Bila anda ingin **mendengar** suara saya, saya terkadang membuat video screencast baik tutorial maupun belajar bersama di [ YouTube ](https://www.youtube.com/aliif "YouTube Aliif").
+Bila anda ingin **mendengar** suara saya, saya terkadang membuat video screencast baik tutorial maupun belajar bersama di [ YouTube](https://www.youtube.com/aliif "YouTube Aliif").
+
+Bila anda ingin mengbrol atau berdiskusi dengan saya anda dapat chat[ Telegram saya](https://t.me/aliifam "Telegram Aliif"), saya selalu senang dan terbuka untuk mengobrol.
 
 Ada **proyek** atau ingin menghubungi saya lewat email?
 
-**Email** : [me@aliif.space](mailto:me@aliif.space)
+**Email**: [me@aliif.space](mailto:me@aliif.space)
 
 Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newsletter](https://newsletter.aliif.space), bila anda ingin tahu berapa banyak pengunjung webite ini anda dapat melihatnya [disini](https://umami.aliif.space/share/C5b0DgXU/aliif.space).
 
