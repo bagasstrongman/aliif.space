@@ -38,4 +38,6 @@ Baiklah sebagai penutup saya jabarkan tech stack website sederhana ini :
 
 Saya memutuskan untuk bertahan selama setidaknya 5 tahun ke depan terhitung dari postingan ini diterbitkan agar menahan diri saya dari pindah tech stack website agar fokus ke isi tulisannya saja.
 
+Jadi terkadang memang kita harus membatasi fitur aplikasi atau website yang kita buat sesuai dengan kebutuhannya saja, daripada menghabiskan waktu untuk mendevelop fitur yang belum tentu berguna lebih baik waktunya digunakan untuk belajar hal baru atau memperdalam pengetahuan dan pengalaman.
+
 Semoga website ini dapat berguna untuk saya dan orang banyak, terimakasih sudah membaca.
