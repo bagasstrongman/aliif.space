@@ -2,10 +2,11 @@
 tags:
 - software
 - architecture
+- singleton
 show_comment: true
 title: Belajar Singleton Design Pattern
 description: Belajar Singleton Design Pattern dalam penembangan perangkat lunak
-date: 2022-09-21T00:00:00+07:00
+date: 2022-09-21T00:00:00.000+07:00
 lastmod: 
 slug: singleton-design-pattern
 images:
@@ -15,4 +16,4 @@ draft: true
 ---
 Halo Semua,
 
-mememe
+Kali ini kita akan belajar Singleton Design Patter, jadi maksud dalam patter ini adalah
