@@ -8,3 +8,4 @@ build using:
 - Forestry
 - Cloudflare Pages 
 - Umami Analytic
+- Disqus 
