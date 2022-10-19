@@ -22,6 +22,12 @@ Ada **proyek** atau ingin menghubungi saya lewat email?
 
 Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newsletter](https://newsletter.aliif.space), bila anda ingin tahu berapa banyak pengunjung webite ini anda dapat melihatnya [disini](https://umami.aliif.space/share/C5b0DgXU/aliif.space).
 
+Favorite Quotes:
+
+> Kejarlah yang abadi maka yang sementara akan mengikuti dan bahkan melampaui.
+>
+> \- Me, 2022
+
 ## Support
 
 Bila anda ingin mendukung sayaanda bisa mendukung saya melalui:
