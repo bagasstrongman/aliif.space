@@ -28,6 +28,10 @@ Favorite Quotes:
 >
 > \- Me, 2022
 
+## Now
+
+Sekarang ini saya sedang fokus belajar bahasa PHP serta framework Laravel, terkadang juga diselingi belajar ReactJS dan Android dengan bahasa Java.
+
 ## Support
 
 Bila anda ingin mendukung sayaanda bisa mendukung saya melalui:
