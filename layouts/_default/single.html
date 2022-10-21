@@ -11,7 +11,7 @@
 
   {{ if or (eq .Section "articles") (eq .Section "projects") }}
     <p>----</p>
-    <p style="font-size: 15px;">Find some Typo, just make the pull request on <a href="https://github.com/aliifam/aliif.space">GitHub</a></p>
+    <p style="font-size: 15px;">Edit this on <a href="https://github.com/aliifam/aliif.space/blob/master/content/{{ .File.Path }}">GitHub</a></p>
   {{ if eq .Type "articles" }} {{ end }}
     {{ $date := .Date.Format "Jan 2, 2006" }}
     {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
