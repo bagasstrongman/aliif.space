@@ -10,7 +10,7 @@ My Personal Homepage source code.
 - [Umami Analytic](https://umami.is/)
 - [Disqus](https://disqus.com/)
 
-## Resources
+## Resources:
 
 - [Jam Hugo Theme](https://github.com/ronv/jam)
 - [SF Pro Font](https://github.com/ronv/jam)
