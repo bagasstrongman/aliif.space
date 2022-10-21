@@ -2,41 +2,41 @@
 label: Projects
 hide_body: false
 fields:
-    - type: text
-      name: title
-      label: title
-      config:
-          required: true
-    - type: text
-      name: description
-      label: description
-      config:
-          required: true
-    - type: datetime
-      name: date
-      label: date
-      config:
-          required: true
-    - name: lastmod
-      type: datetime
-      label: lastmod
-      description: ""
-      config:
-          required: false
-          date_format:
-          time_format:
-          display_utc: false
-    - type: text
-      name: slug
-      label: slug
-    - type: list
-      name: images
-      label: images
-    - name: show_comment
-      type: boolean
-      label: show_comment
-      default: false
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: description
+  label: description
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+- name: lastmod
+  type: datetime
+  label: lastmod
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- type: text
+  name: slug
+  label: slug
+- type: list
+  name: images
+  label: images
+- name: show_comment
+  type: boolean
+  label: show_comment
+  default: false
 pages:
-    - content/projects/al-matsurat-online.md
-    - content/projects/ecommerce-buku-sederhana.md
-    - content/projects/improvisasi-caesar-cipher.md
+- content/projects/al-matsurat-online.md
+- content/projects/ecommerce-buku-sederhana.md
+- content/projects/improvisasi-caesar-cipher.md

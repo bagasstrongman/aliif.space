@@ -2,48 +2,49 @@
 label: Articles
 hide_body: false
 fields:
-    - type: text
-      name: title
-      label: title
-      config:
-          required: true
-    - type: text
-      name: description
-      label: description
-      config:
-          required: true
-    - name: tags
-      type: tag_list
-      default: []
-      label: tags
-      description: tags for post
-    - type: datetime
-      name: date
-      label: date
-      config:
-          required: true
-    - type: datetime
-      name: lastmod
-      label: lastmod
-    - type: text
-      name: slug
-      label: slug
-    - type: list
-      name: images
-      label: images
-    - name: show_comment
-      type: boolean
-      label: show_comment
-      default: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: description
+  label: description
+  config:
+    required: true
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: tags for post
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: text
+  name: slug
+  label: slug
+- type: list
+  name: images
+  label: images
+- name: show_comment
+  type: boolean
+  label: show_comment
+  default: true
 pages:
-    - content/articles/belajar-singleton-design-pattern.md
-    - content/articles/how-to-redirect-cloudflare-pages-domain-to-custom-domain.md
-    - content/articles/janji-5-tahun-tidak-akan-refactoring-website-ini.md
-    - content/articles/javascript-detructuring-object.md
-    - content/articles/memahami-class-dan-object-dalam-oop.md
-    - content/articles/mengenal-design-pattern.md
-    - content/articles/menggunakan-umami-analytic.md
-    - content/articles/menyelesaikan-coding-test-palindrome.md
-    - content/articles/normalisasi-htdocs-xampp-di-ubuntu.md
-    - content/articles/pengertian-database-nosql.md
-    - content/articles/selamat-datang-semua.md
+- content/articles/belajar-singleton-design-pattern.md
+- content/articles/how-to-redirect-cloudflare-pages-domain-to-custom-domain.md
+- content/articles/janji-5-tahun-tidak-akan-refactoring-website-ini.md
+- content/articles/javascript-detructuring-object.md
+- content/articles/kesahalah-saya-saat-ngeblog.md
+- content/articles/memahami-class-dan-object-dalam-oop.md
+- content/articles/mengenal-design-pattern.md
+- content/articles/menggunakan-umami-analytic.md
+- content/articles/menyelesaikan-coding-test-palindrome.md
+- content/articles/normalisasi-htdocs-xampp-di-ubuntu.md
+- content/articles/pengertian-database-nosql.md
+- content/articles/selamat-datang-semua.md
