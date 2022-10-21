@@ -1,4 +1,4 @@
-baseURL: 'https://aliif.space/'
+baseURL: "https://aliif.space/"
 languageCode: en-us
 title: Aliif Arief Homepage
 googleAnalytics: ""
@@ -6,7 +6,7 @@ disqusShortname: "aliif"
 enableEmoji: true
 //preserveTaxonomyNames: true
 footnotereturnlinkcontents: ↩
-disableHugoGeneratorInject: false
+disableHugoGeneratorInject: true
 pluralizeListTitles: false
 pygmentsCodeFences: true
 pygmentsUseClasses: false
@@ -16,73 +16,71 @@ enableGitInfo: true
 metaDataFormat: yaml
 
 permalinks:
-  articles: /:slug/
-  projects: /:slug/
-  pages: /:slug/
+    articles: /:slug/
+    projects: /:slug/
+    pages: /:slug/
 
 author:
-  name: Aliif Arief
-  email: me@aliif.space
-  twitter: 'aliifarm'
+    name: Aliif Arief
+    email: me@aliif.space
+    twitter: "aliifarm"
 
 taxonomies:
-  tag: tags
+    tag: tags
 
 menu:
-  main:
-    - name: "Home"
-      url: "/"
-      weight: 1
-    - name: "About"
-      url: "/about/"
-      weight: 2
-    - name: "Articles"
-      url: "/articles/"
-      weight: 3
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 4
+    main:
+        - name: "Home"
+          url: "/"
+          weight: 1
+        - name: "About"
+          url: "/about/"
+          weight: 2
+        - name: "Articles"
+          url: "/articles/"
+          weight: 3
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 4
 
 params:
-  description: "I am Software Engineering student at Gadjah Mada University with a focus on backend application development."
-  images: 
-  - https://og.tailgraph.com/og?fontFamily=Inter&title=Aliif%20Arief's%20Homepage&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=I%20am%20Software%20Engineering%20student%20at%20Gadjah%20Mada%20University&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-blueGray-300&footer=aliif.space&footerTailwind=text-blueGray-600&containerTailwind=bg-transparent&t=1665236849887&refresh=1
-  FooterText: "Aliif Arief"
+    description: "I am Software Engineering student at Gadjah Mada University with a focus on backend application development."
+    images:
+        - https://og.tailgraph.com/og?fontFamily=Inter&title=Aliif%20Arief's%20Homepage&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=I%20am%20Software%20Engineering%20student%20at%20Gadjah%20Mada%20University&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-blueGray-300&footer=aliif.space&footerTailwind=text-blueGray-600&containerTailwind=bg-transparent&t=1665236849887&refresh=1
+    FooterText: "Aliif Arief"
 
 frontmatter:
-  author: 'Aliif Arief'
-  github: 'https://github.com/aliifam'
-  twitter: 'aliifarm'
-  lastmod:
-  - lastmod
+    author: "Aliif Arief"
+    github: "https://github.com/aliifam"
+    twitter: "aliifarm"
+    lastmod:
+        - lastmod
 
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    lineAnchors: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: false
-    noClasses: true
-    noHl: false
-    style: "dracula"
-    tabWidth: 4
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        anchorLineNos: false
+        codeFences: true
+        guessSyntax: false
+        hl_Lines: ""
+        lineAnchors: ""
+        lineNoStart: 1
+        lineNos: false
+        lineNumbersInTable: false
+        noClasses: true
+        noHl: false
+        style: "dracula"
+        tabWidth: 4
 
 sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-  priority: 0.5
+    changefreq: monthly
+    filename: sitemap.xml
+    priority: 0.5
 
 outputFormats:
-  RSS:
-    mediatype: application/rss
-    baseName: rss
-
-
+    RSS:
+        mediatype: application/rss
+        baseName: rss
