@@ -6,7 +6,7 @@ disqusShortname: "aliif"
 enableEmoji: true
 //preserveTaxonomyNames: true
 footnotereturnlinkcontents: ↩
-disableHugoGeneratorInject: true
+disableHugoGeneratorInject: false
 pluralizeListTitles: false
 pygmentsCodeFences: true
 pygmentsUseClasses: false
