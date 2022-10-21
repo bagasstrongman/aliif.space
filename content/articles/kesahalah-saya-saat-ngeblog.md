@@ -21,3 +21,9 @@ Kali ini saya akan memaparkan beberapa kesalahan yang saya lakukan selama terjun
 Tulisan ini saya harap bisa menjadi reminder untuk diri saya sendiri agar tidak mengulangi kesalahan yang sama kedepannya.
 
 ## 1. Tulisan bukan Desain
+
+Kessalah
+
+## 2. Fokus satu Platform
+
+## 3. Overengineering
