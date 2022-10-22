@@ -2,7 +2,7 @@
 
 My Personal Homepage source code.
 
-## Build using:
+## Powered by:
 
 - [Hugo SSG](https://gohugo.io/)
 - [Forestry CMS](https://forestry.io/)
@@ -13,7 +13,7 @@ My Personal Homepage source code.
 ## Resources:
 
 - [Jam Hugo Theme](https://github.com/ronv/jam)
-- [SF Pro Font](https://github.com/ronv/jam)
+- [SF Pro Font](https://github.com/aliifam/BlinkMacSystemFont)
 - [Applause Button](https://applause-button.com/)
 - [Turbolinks](https://github.com/turbolinks/turbolinks)
 - [Fast Image Zoom](https://github.com/mvoloskov/fast-image-zoom)
