@@ -16,11 +16,8 @@ query.oninput = function searchpost() {
     for (const artikel of allpost) {
         if (
             artikel.title
-                .toLocaleLowerCase()
-                .trim()
-                .includes(
-                    query.value.toLocaleLowerCase().trim() && query.value.trim()
-                )
+                .toLowerCase()
+                .includes(query.value.toLowerCase().trim())
         ) {
             list.innerHTML += `
                 <article class="list">
