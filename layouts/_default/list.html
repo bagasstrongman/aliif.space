@@ -12,15 +12,27 @@
     {{end}}
   </div>
   {{end}}
-  {{- $cs := .CurrentSection }}
-  {{- with $cs }}
-    {{- range (where .Site.RegularPages "Section" .Section) }}
-      {{- if .IsDescendant $cs }}
+  
+  {{ if (where .Pages "Type" "articles") }}
+    {{ $paginator := .Paginate (where .Pages "Type" "articles") }}
+    <div id="list">
+    {{ range $paginator.Pages }} 
     <article class="list">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         <time>{{ .Date.Format "January 2, 2006" }}</time>
     </article>
-      {{- end }}
-    {{- end }}
-  {{- end }}
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+    </div>
+  {{ end }}
+
+   {{ if (where .Pages "Type" "projects") }}
+      {{ range (where .Pages "Type" "projects") }}
+      <article class="list">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+      </article>
+      {{end}}
+   {{ end }}
+  
 {{ end }}

@@ -1,0 +1,12 @@
+[
+  {{- with $.Site.GetPage "/articles" }}
+    {{- range $index, $data := .Pages }}
+    {{- if $index }},{{ end }}
+    {
+        "title": "{{ $data.Title  }}",
+        "url": "{{ $data.RelPermalink }}",
+        "date": "{{ $data.Date.Format "January 2, 2006" }}",
+    }
+    {{- end }}
+  {{- end }}
+]

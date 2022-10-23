@@ -14,6 +14,8 @@ pygmentsStyle: "dracula"
 minify: true
 enableGitInfo: true
 metaDataFormat: yaml
+enableRobotsTXT: true
+paginate: 20
 
 permalinks:
     articles: /:slug/
@@ -84,3 +86,8 @@ outputFormats:
     RSS:
         mediatype: application/rss
         baseName: rss
+
+outputs:
+    home:
+        - HTML
+        - JSON
