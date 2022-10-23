@@ -30,7 +30,9 @@ Namun dari kesalahan ini sebenarnya ada hal positif yang saya peroleh yaitu pema
 
 ## 2. Fokus satu Platform
 
-Kesalahan kedua yang saya lakukan adalah tidak fokus dalam memilih platform untuk blogging, sehingga tulisan saya tercecer dimana - mana dan tidak teratur karena itu sekarang saya hanya fokus menulis di dua platform saja yang pertama yaitu website ini yang menggunakan SSG Hugo dan juga saya menulis di Medium untuk topik yang diluar teknikal.
+Kesalahan kedua yang saya lakukan adalah tidak fokus dalam memilih platform untuk blogging, sehingga tulisan saya tercecer dimana - mana dan tidak teratur karena itu sekarang saya hanya fokus menulis di website ini saja baik itu topik teknikal maupun kehidupan.
+
+Bukan tanpa alasan kenapa saya memilih website ini, karena menurut saya dengan menggunakan website pribadi akan membuat kita lebih flexible daripada menulis di plaform lainnya seperti medium, hashnode, blogger, dll. selain itu dengan website pribadi saya dapat melakukan optimasi agar website menjadi lebih mudah diakses dan ringan dengan berbagai macam jenis device dan kecepatan internet disamping itu juga saya juga lebih dapat membangun personal branding dengan domain yang saya miliki sendiri.
 
 ## 3. Over Features
 
