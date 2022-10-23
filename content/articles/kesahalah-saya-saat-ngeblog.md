@@ -9,7 +9,7 @@ title: Kesahalah Saya Saat Ngeblog
 description: Beberapa kesalahan saya selama terjun dalam dunia blogging dari tahun
   2020
 date: 2022-10-21T00:00:00.000+07:00
-lastmod: 
+lastmod: 2022-10-23T00:00:00+07:00
 slug: kesalahan-saat-ngeblog
 images: []
 
