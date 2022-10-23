@@ -19,8 +19,9 @@ query.oninput = function searchpost() {
                 .toLowerCase()
                 .includes(query.value.toLowerCase().trim())
         ) {
+            console.log(artikel.title.toLowerCase());
             list.innerHTML += `
-                <article class="list">
+            <article class="list">
                 <a href="${artikel.url}">${artikel.title}</a>
                 <time>${artikel.date}</time>
             </article>`;
