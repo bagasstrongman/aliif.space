@@ -8,8 +8,8 @@ show_comment: true
 title: Kesahalah Saya Saat Ngeblog
 description: Beberapa kesalahan saya selama terjun dalam dunia blogging dari tahun
   2020
-date: 2022-10-21T00:00:00+07:00
-lastmod: 
+date: 2022-10-21T00:00:00.000+07:00
+lastmod: 2022-10-23T00:00:00+07:00
 slug: kesalahan-saat-ngeblog
 images: []
 
@@ -37,6 +37,8 @@ Bukan tanpa alasan kenapa saya memilih website ini, karena menurut saya dengan m
 ## 3. Over Features
 
 Kesalahan ketiga yang saya lakukan adalah memperbanyak fitur - fitur blog yang sebenarnya tidak dibutuhkan oleh user, malah mungkin dengan fitur website yang terlalu banyak selain menghabiskan waktu untuk membuat fiturnya juga membuat user yang memiliki internet terbatas semakin sulit mengakses website kita karena website kita berat dengan berbagai assets file yang banyak.
+
+![kok relate ya](/uploads/23-10-2022-meme-sarkas.jpeg "kok relate ya")
 
 ## Kesimpulan
 
