@@ -1,17 +1,19 @@
 ---
-title: "Github Activity Generator"
-description: "Github Activity Generator build using python"
-date: "2021-11-21"
-lastmod: "2022-06-01"
-slug: "github-activity-generator"
+title: Github Activity Generator
+description: Github Activity Generator build using python
+date: 2021-11-21
+lastmod: 2022-06-01
+slug: github-activity-generator
 show_comment: false
 images:
 - https://og.tailgraph.com/og?fontFamily=Roboto&title=Github%20Activity%20Generator&titleTailwind=text-gray-800%20font-bold%20text-6xl&text=Github%20Activity%20Generator%20build%20using%20python&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1653399583383&refresh=1
----
 
+---
 Pernah gak sih anda meihhat timeline aktifitas akun GitHub seseorang kok bisa yang hijau banget seakan - akan dia ngoding terus tiap hari.
 
-> Jangan nilai Programmer hanya dari profil GitHubnya saja <br> *- Aliif Arief 2021* 
+> Jangan nilai Programmer hanya dari profil GitHubnya saja.
+>
+> _- Aliif Arief, 2021_
 
 Kira - kira Quotes diatas sangat cocok untuk Proyek yang saya buat kali ini, jadi perkenalkan lah Github Activity Generator yaitu sebuah script yang saya buat dengan menggunakan bahasa Python untuk melakukan manipulasi dengan mengotomatisasi commit git.
 
