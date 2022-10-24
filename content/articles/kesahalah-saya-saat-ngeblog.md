@@ -9,7 +9,7 @@ title: Kesahalah Saya Saat Ngeblog
 description: Beberapa kesalahan saya selama terjun dalam dunia blogging dari tahun
   2020
 date: 2022-10-21T00:00:00.000+07:00
-lastmod: 2022-10-23T00:00:00+07:00
+lastmod: 2022-10-23T00:00:00.000+07:00
 slug: kesalahan-saat-ngeblog
 images: []
 
@@ -44,4 +44,4 @@ Kesalahan ketiga yang saya lakukan adalah memperbanyak fitur - fitur blog yang s
 
 Kesimpulannya sesuai dengan tulisan saya yang berjudul [janji 5 tahun webite ini](https://aliif.space/janji-5-tahun-website-ini/) saya harus berusaha agar konsisten dan fokus biarkan tampilan website seperti ini saja karena ini sudah lebih dari yang saya butuhkan dan inginkan dulu.
 
-Bosan itu pasti lama - kelamaan akan datang dan itu manusiawi karena itu hanya mereka yang memiliki prinsip yang kuat yang dapat bertahan dengan pilihannya.
+> Bosan itu pasti lama - kelamaan akan datang dan itu manusiawi karena itu hanya mereka yang memiliki prinsip yang kuat yang dapat bertahan dengan pilihannya.
