@@ -37,4 +37,4 @@ Berikut beberapa prinsip design pattern yang akan kita bahas dalam beberapa arti
 11. Bridge
 12. Compoite
 
-Nantikan lanjutan artikelnya.
+Nantikan lanjutan artikelnya ya.
