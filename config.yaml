@@ -12,7 +12,7 @@ pygmentsCodeFences: true
 pygmentsUseClasses: false
 pygmentsStyle: "dracula"
 minify: true
-enableGitInfo: false
+enableGitInfo: true
 metaDataFormat: yaml
 enableRobotsTXT: true
 paginate: 20
@@ -58,7 +58,7 @@ frontmatter:
     twitter: "aliifarm"
     lastmod:
         - lastmod
-        - ":fileModTime"
+        # - ":fileModTime"
 
 markup:
     goldmark:
