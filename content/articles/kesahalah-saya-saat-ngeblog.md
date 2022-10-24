@@ -5,7 +5,7 @@ tags:
 - reminder
 - blog
 show_comment: true
-title: Kesahalah Saya Saat Ngeblog
+title: Kesalahan Saya Saat Ngeblog
 description: Beberapa kesalahan saya selama terjun dalam dunia blogging dari tahun
   2020
 date: 2022-10-21T00:00:00.000+07:00
