@@ -270,17 +270,20 @@ a:hover {
 blockquote {
     border-left: 2px solid var(--base-color);
     padding: 0.5em;
-    display: flex;
     background: var(--base-low);
     margin-left: 0;
     border-radius: 8px;
 }
 
 blockquote::before {
-    font-family: "santuy sans";
+    position: absolute;
     content: "\201C";
     font-size: 4em;
     margin-right: 10px;
+}
+
+blockquote > p {
+    margin-left: 2.5em;
 }
 
 ul {
