@@ -12,7 +12,7 @@ pygmentsCodeFences: true
 pygmentsUseClasses: false
 pygmentsStyle: "dracula"
 minify: true
-enableGitInfo: true
+enableGitInfo: false
 metaDataFormat: yaml
 enableRobotsTXT: true
 paginate: 20
