@@ -41,4 +41,4 @@ Maksud dari perintah diatas adalah:
 
 FYI aja nih sebelumnya saya mensetting kode permissionnya dengan kode `755` namun ketika saya melakukan instalasi dan konfigurasi cms wordpress di htdocs sering terjadi error ketika mengupload plugin atau tema sehingga saya menemukan solusi ini dan ketika saya terapkan kode `777` semua error di wordpress seketika hilang dan menjadi lancar jaya.
 
-Sekian tulisan dari saya semoga bermanfaat, terimakasih sudah membaca.
+Sekian tulisan saya semoga bermanfaat, terimakasih sudah membaca.
