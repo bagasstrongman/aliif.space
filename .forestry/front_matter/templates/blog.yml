@@ -22,9 +22,11 @@ fields:
   label: date
   config:
     required: true
+  default: now
 - type: datetime
   name: lastmod
   label: lastmod
+  default: now
 - type: text
   name: slug
   label: slug
