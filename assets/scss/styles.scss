@@ -277,6 +277,7 @@ blockquote {
 
 blockquote::before {
     position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
     content: "\201C";
     font-size: 4em;
     margin-right: 10px;
