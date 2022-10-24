@@ -13,7 +13,7 @@ images:
 ---
 Halo semua,
 
-Selamat datang di website pribadi dan rumah saya di Internet, website ini akan berisi segala macam tulisan dan pikiran yang ingin saya tuangkan dan bagikan.
+Selamat datang di website pribadi dan rumah saya di Internet, website ini akan berisi segala macam tulisan dan pikiran yang ingin saya tuangkan dan bagikan untuk menjaga diri agar tetap.
 
 Saya juga akan menulis hal yang saya sukai yaitu dalam ranah Teknologi terutama pengembangan perangkat lunak.
 
