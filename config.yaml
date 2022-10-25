@@ -56,10 +56,9 @@ frontmatter:
     author: "Aliif Arief"
     github: "https://github.com/aliifam"
     twitter: "aliifarm"
-    date: [":filename", "date", "publishDate", "lastmod"]
-    lastmod: [":fileModTime", ":git", "lastmod", "date", "publishDate"]
-    publishDate: ["publishDate", "date"]
-    expiryDate: "expiryDate"
+    lastmod:
+        - lastmod
+        # - ":fileModTime"
 
 markup:
     goldmark:
