@@ -58,7 +58,8 @@ frontmatter:
     twitter: "aliifarm"
     lastmod:
         - lastmod
-        # - ":fileModTime"
+        - ":fileModTime"
+        - ":default"
 
 markup:
     goldmark:
