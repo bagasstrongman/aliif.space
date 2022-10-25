@@ -14,9 +14,9 @@
     <p style="font-size: 15px;">Edit this on <a href="https://github.com/aliifam/aliif.space/blob/master/content/{{ .File.Path }}">GitHub</a></p>
   {{ if eq .Type "articles" }} {{ end }}
     {{ $date := .Date.Format "Jan 2, 2006" }}
-    {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
+    {{ $lastmod := .Page.Lastmod.Format "Jan 2, 2006" }}
     Published {{ $date }}
-    {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
+    {{ if and (ne $lastmod $date) (gt .Page.Lastmod .Date) }}
         <br/>Updated {{ $lastmod }}
     {{ end }}
       <br/>
