@@ -34,4 +34,4 @@ Sekarang ini saya sedang fokus belajar bahasa PHP serta framework Laravel, terka
 
 ## Support
 
-Bila anda ingin mendukung saya secara material anda [mentraktir saya kopi](https://trakteer.id/aliifam/tip "traktir kopi") atau [sawer saya](https://saweria.co/aliif "Saweria Aliif"), anda juga dapat mendukung saya dengan doa, terimakasih.
+Bila anda ingin mendukung saya secara material anda dapat [mentraktir saya kopi](https://trakteer.id/aliifam/tip "traktir kopi") atau [sawer saya](https://saweria.co/aliif "Saweria Aliif"), anda juga dapat mendukung saya dengan doa, terimakasih.
