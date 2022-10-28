@@ -21,7 +21,7 @@ Cara Kerja dari script ini sebenarnya sangat amat sederhana yaitu hanya dengan m
 
 Berikut main script dari aplikasi sederhana yang saya buat.
 
-```python {hl_lines=["5-7"]}
+```python
 import os
 from datetime import date, time, datetime
 import datetime
