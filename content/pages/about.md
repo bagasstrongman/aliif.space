@@ -28,6 +28,10 @@ Favourite Quotes:
 >
 > \- Me, 2022
 
+> Akhirat dihati, dunia ditangan, kematian dipelupuk mata
+>
+> \- Imam Syafi'i
+
 ## Now
 
 Sekarang ini saya sedang fokus belajar bahasa PHP serta framework Laravel, terkadang juga diselingi belajar ReactJS dan Android dengan bahasa Java.
