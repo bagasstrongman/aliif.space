@@ -897,3 +897,23 @@ applause-button.clap .sparkle circle {
         font-size: medium;
     }
 }
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination-next {
+    margin: 0;
+    padding: 0;
+}
+
+.pagination-number {
+    margin: 0;
+    padding: 0;
+}
+
+.pagination-prev {
+    margin: 0;
+    padding: 0;
+}

@@ -22,7 +22,7 @@
         <time>{{ .Date.Format "January 2, 2006" }}</time>
     </article>
     {{ end }}
-    {{ template "_internal/pagination.html" . }}
+    {{ partial "pagination.html" .}}
     </div>
   {{ end }}
 
