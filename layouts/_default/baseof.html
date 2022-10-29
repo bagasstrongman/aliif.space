@@ -178,5 +178,22 @@
     {{ $cari := resources.Get "js/cari.js" }}
     <script src="{{ $cari.Permalink | relURL }}" defer></script>
 {{ end }}
+{{ if not (in (.Site.BaseURL | string) "1313") }} 
+    <!-- Put this at the end of the <body> tag -->
+    <script src="https://swetrix.org/swetrix.js" defer></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        swetrix.init('WTWlUZ2fj2n7')
+        swetrix.trackViews()
+    })
+    </script>
+    <noscript>
+    <img
+        src="https://api.swetrix.com/log/noscript?pid=WTWlUZ2fj2n7"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+    />
+    </noscript>
+{{ end }}
 </body>
 </html>
