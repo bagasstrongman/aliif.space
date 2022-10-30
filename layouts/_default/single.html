@@ -29,5 +29,6 @@
       {{ partial "disqus.html" .}}
     {{ end }}
   {{ end }}
-
+  {{ $counter := resources.Get "js/counter.js" }}
+  <script src="{{ $counter.Permalink | relURL }}" defer data-turbolinks-track="reload"></script>
 {{ end }}

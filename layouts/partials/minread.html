@@ -2,3 +2,4 @@
 {{ $totword := .Content | countwords }}
 
 <p style="font-size: .9rem;">By <a style="text-decoration: none;" href="/about/">{{ $author }}</a> · {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }} · {{ .Content | countwords }} Word{{ if (ne $totword 1) }}s{{ end }}</p>
+<div>Number of visitors: <div id="stats"></div></div>
