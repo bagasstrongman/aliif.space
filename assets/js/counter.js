@@ -9,11 +9,11 @@ fetch(
         if (parseInt(data.count) > 1) {
             document.getElementById(
                 "stats"
-            ).innerText = ` · ${data.count} Views`;
+            ).innerText = ` · ${data.count} views`;
         } else {
             document.getElementById(
                 "stats"
-            ).innerText = ` · ${data.count} View`;
+            ).innerText = ` · ${data.count} view`;
         }
     })
     .catch((e) => {
