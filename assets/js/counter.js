@@ -7,10 +7,9 @@ fetch(
     .then((res) => res.json())
     .then((data) => {
         if (parseInt(data.count) > 1) {
-            document.getElementById("stats").innerText = data.count + " Views";
+            document.getElementById("stats").innerText = `${data.count} Views`;
         } else {
-            document.getElementById("stats").innerText =
-                data.count_unique + " View";
+            document.getElementById("stats").innerText = `${data.count} View`;
         }
     })
     .catch((e) => {
