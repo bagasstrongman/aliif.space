@@ -100,7 +100,7 @@
         r.addEventListener('load', function() {
             document.querySelector('#stats').innerText = JSON.parse(this.responseText).count_unique
         })
-        r.open('GET', 'https://analytic.aliif.space/counter/' + encodeURIComponent(location.pathname) + '.json')
+        r.open('GET', 'https://analytic.aliif.space/counter/' + location.pathname.replace(/\/+$/, '') + '.json')
         r.send()
     })
 </script>
