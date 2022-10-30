@@ -6,5 +6,13 @@ fetch(
 )
     .then((res) => res.json())
     .then((data) => {
-        document.getElementById("stats").innerText = data.count_unique;
+        if (parseInt(data.count) > 1) {
+            document.getElementById("stats").innerText = data.count + " Views";
+        } else {
+            document.getElementById("stats").innerText =
+                data.count_unique + " View";
+        }
+    })
+    .catch((e) => {
+        console.log("error");
     });

@@ -133,7 +133,6 @@
     {{- if .Site.Params.FooterText }}
 	<footer>
 		<p>&copy; 2020-{{ now.Format "2006"}} · {{ .Site.Params.FooterText }}</p>
-        <div>Number of visitors: <div id="stats"></div></div>
         <div onclick=setDarkMode(true) id="darkBtn">🌚</div>
         <div onclick=setDarkMode(false) id="lightBtn" style="display: none;">🌝</div>
 	</footer>
@@ -181,10 +180,6 @@
 {{ if (findRE "<input" .Content 1) }}
     {{ $cari := resources.Get "js/cari.js" }}
     <script src="{{ $cari.Permalink | relURL }}" defer></script>
-{{ end }}
-{{ if (findRE "<app" .Content 1) }}
-    {{ $counter := resources.Get "js/counter.js" }}
-    <script src="{{ $counter.Permalink | relURL }}" defer data-turbolinks-track="reload"></script>
 {{ end }}
 </body>
 </html>
