@@ -94,16 +94,10 @@
     </script> -->
 {{ end }}
 <script data-goatcounter="https://analytic.aliif.space/count" async defer src="//gc.zgo.at/count.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function(){
-        var r = new XMLHttpRequest();
-        r.addEventListener('load', function() {
-            document.querySelector('#stats').innerText = JSON.parse(this.responseText).count_unique
-        })
-        r.open('GET', 'https://analytic.aliif.space/counter/' + location.pathname.replace(/\/+$/, '') + '.json')
-        r.send()
-    })
-</script>
+
+{{ $counter := resources.Get "js/counter.js" }}
+<script src="{{ $counter.Permalink | relURL }}" defer></script>
+
 {{ $turbo := resources.Get "js/turbo.js" }}
 <script src="{{ $turbo.Permalink | relURL }}" defer></script>
 <script>
