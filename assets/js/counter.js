@@ -1,19 +1,14 @@
-fetch(
-    `https://analytic.aliif.space/counter/${location.pathname.slice(
-        0,
-        -1
-    )}.json`
-)
+fetch(`https://api.countapi.xyz/hit/${location.hostname}${location.pathname}`)
     .then((res) => res.json())
     .then((data) => {
-        if (parseInt(data.count) > 1) {
+        if (parseInt(data.value) > 1) {
             document.getElementById(
                 "stats"
-            ).innerText = ` · ${data.count} views`;
+            ).innerText = ` · ${data.value} views`;
         } else {
             document.getElementById(
                 "stats"
-            ).innerText = ` · ${data.count} view`;
+            ).innerText = ` · ${data.value} view`;
         }
     })
     .catch((e) => {
