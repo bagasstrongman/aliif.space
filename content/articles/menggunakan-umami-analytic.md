@@ -5,7 +5,7 @@ tags:
 show_comment: true
 title: Menggunakan Umami Analytic
 description: Menggunakan Umami Analytic untuk menggantikan Google Analytic
-date: 2022-07-06T00:00:00+07:00
+date: 2022-07-06T00:00:00.000+07:00
 lastmod: 
 slug: umami-analytic
 images:
@@ -22,7 +22,7 @@ Saya memutuskan untuk menggunakan Umami karena tampilannya yang bagus, performa 
 
 Gambar diatas merupakan Screenshot dari [dashboard shared](https://umami.aliif.space/share/C5b0DgXU/aliif.space) Umami saya, sangat bagus kan?, untuk cara instalasi ada dalam dokumentasi di website resminya [umami](https://umami.is/), bila ingin tutorial instalasi nya dalam bahasa Indonesia dan ramah pemula tenang saja saya sudah membuatkan video tutorialnya.
 
-{{< youtube id="6rUsrNqa_F4" autoplay="false" >}}
+[Link Video Youtubenya](https://youtu.be/6rUsrNqa_F4)
 
 Untuk embed script nya Umami jelas jauh lebih ringan dari Google Analytic, selain itu Umami juga mengklaim ketahanannya terhadap adblocker sehingga walaupun pengunjung menggunakan adblock Umami akan tetap bisa berjalan dengan baik.
 
