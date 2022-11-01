@@ -85,15 +85,14 @@
 </script>
 {{ end }}
 {{ if not (in (.Site.BaseURL | string) "1313") }} 
-    <script async defer data-website-id="5e0abc80-3725-4447-9eff-f3cf8186685e" src="https://umami.aliif.space/umami.js"></script>
-    <script data-no-cookie async defer src="https://cdn.splitbee.io/sb.js"></script>
+    <script defer data-domain="aliif.space" src="https://plausible.io/js/plausible.js"></script>
+    <script data-goatcounter="https://analytic.aliif.space/count" async defer src="//gc.zgo.at/count.js"></script>
     <!-- <script>
         if (window.location.hostname !== "aliif.space"){
             window.top.location.href = 'https://aliif.space' + window.location.pathname;
         }
     </script> -->
 {{ end }}
-<script data-goatcounter="https://analytic.aliif.space/count" async defer src="//gc.zgo.at/count.js"></script>
 
 {{ $counter := resources.Get "js/counter.js" }}
 <script src="{{ $counter.Permalink | relURL }}"  defer></script>

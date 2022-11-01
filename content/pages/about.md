@@ -20,7 +20,7 @@ Ada **proyek** atau ingin menghubungi saya lewat email?
 
 **Email**: [me@aliif.space](mailto:me@aliif.space)
 
-Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newsletter](https://newsletter.aliif.space), bila anda ingin tahu berapa banyak pengunjung webite ini  dan analitiknya anda dapat melihatnya di [Umami](https://umami.aliif.space/share/C5b0DgXU/aliif.space "Umami Aliif") atau di [Splitbee](https://app.splitbee.io/public/aliif.space "Splitbee Aliif").
+Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newsletter](https://newsletter.aliif.space).
 
 Favourite Quotes:
 
