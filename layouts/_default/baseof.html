@@ -95,6 +95,9 @@
 {{ end }}
 <script data-goatcounter="https://analytic.aliif.space/count" async defer src="//gc.zgo.at/count.js"></script>
 
+{{ $counter := resources.Get "js/counter.js" }}
+<script src="{{ $counter.Permalink | relURL }}"  defer></script>
+
 {{ $turbo := resources.Get "js/turbo.js" }}
 <script src="{{ $turbo.Permalink | relURL }}" defer></script>
 <script>
