@@ -20,9 +20,9 @@ Ada **proyek** atau ingin menghubungi saya lewat email?
 
 **Email**: [me@aliif.space](mailto:me@aliif.space)
 
-Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newsletter](https://newsletter.aliif.space).
+Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newsletter](https://newsletter.aliif.space). dan bila ingin mengetahui statistik pengunjung website ini ada dapat mellihatnya di [GoatCounter](https://analytic.aliif.space/).
 
-Favourite Quotes:
+Favorite Quotes:
 
 > Kejarlah yang abadi maka yang sementara akan mengikuti dan bahkan melampaui.
 >
