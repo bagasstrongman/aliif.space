@@ -16,11 +16,21 @@ Bila anda ingin **mendengar** suara saya, saya terkadang membuat video screencas
 
 Bila anda ingin mengbrol atau **berdiskusi** dengan saya anda dapat chat[ Telegram saya](https://t.me/aliifam "Telegram Aliif"), saya selalu senang dan terbuka untuk mengobrol.
 
+Hobi saya adalah bermain **badminton** namun saya lebih sering [berlari ataupun bersepeda](https://www.strava.com/athletes/95917667 "Strava Aliif") untuk menjaga agar fisik tetap bugar.
+
 Ada **proyek** atau ingin menghubungi saya lewat email?
 
 **Email**: [me@aliif.space](mailto:me@aliif.space)
 
 Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newsletter](https://newsletter.aliif.space). dan bila ingin mengetahui statistik pengunjung website ini ada dapat mellihatnya di [GoatCounter](https://analytic.aliif.space/).
+
+## Now
+
+Sekarang ini saya sedang fokus belajar bahasa PHP serta framework Laravel, terkadang juga diselingi belajar ReactJS dan Android dengan bahasa Java.
+
+## Support
+
+Bila anda ingin mendukung saya secara material anda dapat [mentraktir saya kopi](https://trakteer.id/aliifam/tip "traktir kopi") atau [sawer saya](https://saweria.co/aliif "Saweria Aliif"), anda juga dapat mendukung saya dengan doa, terimakasih.
 
 Favorite Quotes:
 
@@ -31,11 +41,3 @@ Favorite Quotes:
 > Akhirat dihati, dunia ditangan, kematian dipelupuk mata
 >
 > \- Imam Syafi'i
-
-## Now
-
-Sekarang ini saya sedang fokus belajar bahasa PHP serta framework Laravel, terkadang juga diselingi belajar ReactJS dan Android dengan bahasa Java.
-
-## Support
-
-Bila anda ingin mendukung saya secara material anda dapat [mentraktir saya kopi](https://trakteer.id/aliifam/tip "traktir kopi") atau [sawer saya](https://saweria.co/aliif "Saweria Aliif"), anda juga dapat mendukung saya dengan doa, terimakasih.
