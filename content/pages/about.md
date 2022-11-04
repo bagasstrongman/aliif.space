@@ -32,12 +32,4 @@ Sekarang ini saya sedang fokus belajar bahasa PHP serta framework Laravel, terka
 
 Bila anda ingin mendukung saya secara material anda dapat [mentraktir saya kopi](https://trakteer.id/aliifam/tip "traktir kopi") atau [sawer saya](https://saweria.co/aliif "Saweria Aliif"), anda juga dapat mendukung saya dengan doa, terimakasih.
 
-Favorite Quotes:
-
-> Kejarlah yang abadi maka yang sementara akan mengikuti dan bahkan melampaui.
->
-> \- Me, 2022
-
-> Akhirat dihati, dunia ditangan, kematian dipelupuk mata
->
-> \- Imam Syafi'i
+[All of my Favorite Quotes.](https://aliif.space/quotes/ "Favorite Quotes Page")
