@@ -6,12 +6,24 @@
     <meta name="author" content="Aliif Arief - {{ .Site.BaseURL }}">
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+     <!-- Mendeklarasikan warna yang muncul pada address bar Chrome versi seluler -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- Mendeklarasikan ikon untuk iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="aliif.space" />
+    <link rel="apple-touch-icon" href="/manifest/icon-192x192.png" />
+    <!-- Mendeklarasikan ikon untuk Windows -->
+    <meta name="msapplication-TileImage" content="/manifest/icon-192x192.png" />
+    <meta name="msapplication-TileColor" content="#000000" />
   {{ partial "opengraph.html" .}}
   {{ partial "schema.html" .}}
   {{ partial "twitter_cards.html" .}}
   <link rel="canonical" href="{{ .Permalink | absURL }}">
   <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}atom.xml" />
   <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
+  <link rel="manifest" href="/manifest/manifest.webmanifest">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
@@ -167,6 +179,11 @@
         }, timeout);
         document.body.appendChild(div);  
       }
+</script>
+<script>
+if ('serviceWorker' in navigator ) {
+    navigator.serviceWorker.register('/manifest/sw.js');
+};
 </script>
 {{ $blank := resources.Get "js/blank.js" }}
 <script src="{{ $blank.Permalink | relURL }}" defer></script>
