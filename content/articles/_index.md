@@ -6,7 +6,7 @@ images:
 - https://og.tailgraph.com/og?fontFamily=Roboto&title=All%20Articles&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=I%20am%20writing%20some%20articles%20here.&textTailwind=text-gray-700%20text-2xl%20mt-4&textFontFamily=Inter&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1654495471553&refresh=1
 
 ---
-I am writing my mind & my learning journey in **Software Engineering & Web Development**, saya menulis untuk berbagi dan menjaga mental agar tetap sehat.
+I am writing my mind & my learning journey in **Software Engineering & Web Development**, saya menulis untuk dokumentasi dan menjaga mental agar tetap sehat.
 
 <div class="search-article">
 <label for="search-input" aria-hidden="true">
