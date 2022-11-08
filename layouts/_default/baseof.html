@@ -180,11 +180,6 @@
         document.body.appendChild(div);  
       }
 </script>
-<script>
-if ('serviceWorker' in navigator ) {
-    navigator.serviceWorker.register('/manifest/sw.js');
-};
-</script>
 {{ $blank := resources.Get "js/blank.js" }}
 <script src="{{ $blank.Permalink | relURL }}" defer></script>
 {{ if (findRE "<pre" .Content 1) }}
@@ -199,5 +194,10 @@ if ('serviceWorker' in navigator ) {
     {{ $cari := resources.Get "js/cari.js" }}
     <script src="{{ $cari.Permalink | relURL }}" defer></script>
 {{ end }}
+<script>
+if ('serviceWorker' in navigator ) {
+    navigator.serviceWorker.register('/sw.js');
+};
+</script>
 </body>
 </html>

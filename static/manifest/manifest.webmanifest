@@ -3,7 +3,7 @@
     "background_color": "#000000",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/?utm_source=pwa",
     "name": "aliif.space",
     "short_name": "Aliif",
     "description": "Aliif personal homepage",
