@@ -21,7 +21,7 @@ Akhirnya saya pun mencoba untuk menyelesaikan masalah ini yaitu dengan mencatat 
 
 Saya biasanya mencatat menggunakan notebook dan pulpen selain itu juga notes di handphone tentunya handphone sudah di set ke mode pesawat agar fokus tetap terjaga.
 
-Saya menggunakan cara ini karena terinspirasi dari tulisan dari [mas Hilman ](https://hilman.space/offline-sebelum-online/ "offline sebelum online")yang sangat relate dengan permasalahan yang saya hadapi sekarang.
+Saya menggunakan cara ini karena terinspirasi dari tulisan dari [mas Hilman ](https://hilman.space/offline-sebelum-online/ "offline sebelum online")di blognya yang sangat relate dengan permasalahan yang saya hadapi sekarang.
 
 > Intinya adalah jangan masuk ke dalam internet dalam keadaan tujuan atau pikiran yang kosong.
 
