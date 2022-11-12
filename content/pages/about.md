@@ -16,7 +16,7 @@ Bila anda ingin **mendengar** suara saya, saya terkadang membuat video screencas
 
 Bila anda ingin mengbrol atau **berdiskusi** dengan saya anda dapat chat[ Telegram saya](https://t.me/aliifam "Telegram Aliif"), saya selalu senang dan terbuka untuk mengobrol.
 
-Hobi saya adalah bermain **badminton** namun saya lebih sering [berlari ataupun bersepeda](https://www.strava.com/athletes/95917667 "Strava Aliif") untuk menjaga agar fisik tetap bugar.
+Hobi saya adalah bermain **badminton** namun saya lebih sering [berlari ataupun bersepeda](https://www.strava.com/athletes/aliifam "Strava Aliif") untuk menjaga agar fisik tetap bugar.
 
 Ada **proyek** atau ingin menghubungi saya lewat email?
 
