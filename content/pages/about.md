@@ -6,9 +6,9 @@ images:
 - https://og.tailgraph.com/og?fontFamily=Roboto&title=About%20Me&titleTailwind=text-gray-800%20font-bold%20text-6xl&titleFontFamily=Inter&text=Learn%20more%20about%20me%20Aliif%20Arief%20&textTailwind=text-gray-700%20text-2xl%20mt-4&logoTailwind=h-8&bgTailwind=bg-white&footer=aliif.space&footerTailwind=text-teal-600&t=1654070936915&refresh=1
 
 ---
-Halo Semua,
+Hello folks,
 
-Perkenalkan nama saya Aliif  **i nya 2**,
+Introduce my name Aliif with **double i**,
 
 Bila anda ingin menjalin **relasi profesional** dengan saya bisa lewat connect langsung di [LindekIn](https://www.linkedin.com/in/aliif/ "Linkedin Aliif"), bila anda ingin mendengar **kicauan** saya mari mutualan di [Twitter](https://twitter.com/aliifarm "Twitter Aliif"), bila anda ingin melihat **project** saya anda bisa mengunjungi [GitHub](https://github.com/aliifam "GitHub Aliif") dan [GitLab](https://gitlab.com/aliifam "Aliif GitLab") saya, bila anda **tidak ingin melihat** saya maka silahkan follow [Instagram ](https://www.instagram.com/aliif.am/ "Instagram Aliif")saya.
 
@@ -26,7 +26,7 @@ Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newslett
 
 ## Now
 
-Sekarang ini saya sedang fokus belajar bahasa PHP serta framework Laravel, terkadang juga diselingi belajar ReactJS dan Android dengan bahasa Java.
+Now I'm still focus on learning Laravel and the ecosystem but sometimes I'm exploring react js and native android.
 
 ## Support
 
