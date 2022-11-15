@@ -12,11 +12,9 @@ Introduce my name Aliif with **double i**,
 
 Bila anda ingin menjalin **relasi profesional** dengan saya bisa lewat connect langsung di [LindekIn](https://www.linkedin.com/in/aliif/ "Linkedin Aliif"), bila anda ingin mendengar **kicauan** saya mari mutualan di [Twitter](https://twitter.com/aliifarm "Twitter Aliif"), bila anda ingin melihat **project** saya anda bisa mengunjungi [GitHub](https://github.com/aliifam "GitHub Aliif") dan [GitLab](https://gitlab.com/aliifam "Aliif GitLab") saya, bila anda **tidak ingin melihat** saya maka silahkan follow [Instagram ](https://www.instagram.com/aliif.am/ "Instagram Aliif")saya.
 
-Bila anda ingin **mendengar** suara saya, saya terkadang membuat video screencast baik tutorial maupun belajar bersama di [ YouTube](https://www.youtube.com/aliif "YouTube Aliif").
+Bila anda ingin mengobrol atau **berdiskusi** dengan saya anda dapat chat[ Telegram saya](https://t.me/aliifam "Telegram Aliif"), saya selalu senang dan terbuka untuk mengobrol.
 
-Bila anda ingin mengbrol atau **berdiskusi** dengan saya anda dapat chat[ Telegram saya](https://t.me/aliifam "Telegram Aliif"), saya selalu senang dan terbuka untuk mengobrol.
-
-Hobi saya adalah bermain **badminton** namun saya lebih sering [berlari ataupun bersepeda](https://www.strava.com/athletes/aliifam "Strava Aliif") untuk menjaga agar fisik tetap bugar.
+Hobi saya adalah bermain **badminton** (cupu) namun saya lebih sering [berlari ataupun bersepeda](https://www.strava.com/athletes/aliifam "Strava Aliif") untuk menjaga agar fisik tetap bugar.
 
 Ada **proyek** atau ingin menghubungi saya lewat email?
 
