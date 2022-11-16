@@ -14,7 +14,7 @@ Bila anda ingin menjalin **relasi profesional** dengan saya bisa lewat connect l
 
 Bila anda ingin mengobrol atau **berdiskusi** dengan saya anda dapat chat[ Telegram saya](https://t.me/aliifam "Telegram Aliif"), saya selalu senang dan terbuka untuk mengobrol.
 
-Hobi saya adalah bermain **badminton** (cupu) namun saya lebih sering [berlari ataupun bersepeda](https://www.strava.com/athletes/aliifam "Strava Aliif") untuk menjaga agar fisik tetap bugar.
+Hobi saya adalah bermain **badminton** (cupu) namun saya lebih sering [berlari ataupun bersepeda](https://www.strava.com/athletes/aliifam "Strava Aliif") untuk menjaga agar fisik tetap sehat.
 
 Ada **proyek** atau ingin menghubungi saya lewat email?
 
@@ -24,10 +24,10 @@ Bila anda ingin selalu update terbaru dari saya anda bisa berlangganan [Newslett
 
 ## Now
 
-Now I'm still focus on learning Laravel and the ecosystem but sometimes I'm exploring react js and native android.
+Now I'm still focusing on learning Laravel and the ecosystem, but sometimes I'm exploring react js and native android.
 
 ## Support
 
 Bila anda ingin mendukung saya secara material anda dapat [mentraktir saya kopi](https://trakteer.id/aliifam/tip "traktir kopi") atau [sawer saya](https://saweria.co/aliif "Saweria Aliif"), anda juga dapat mendukung saya dengan doa, terimakasih.
 
-[All of my Favorite Quotes.](https://aliif.space/quotes/ "Favorite Quotes Page")
+[These are all of my Favorite Quotes.](https://aliif.space/quotes/ "Favorite Quotes Page")
